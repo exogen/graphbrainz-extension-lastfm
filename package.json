@@ -29,6 +29,7 @@
     "start": "babel-node scripts/start.js",
     "start:dev": "nodemon --exec babel-node scripts/start.js",
     "test": "npm run lint && npm run test:only",
+    "test:network": "ava",
     "test:only": "AVA_PLAYBACK=play ava",
     "test:update": "AVA_PLAYBACK=record ava --serial --update-snapshots && npm run test:fixtures",
     "test:fixtures": "babel-node scripts/fix-test-fixtures.js"
