@@ -1,0 +1,104 @@
+{
+  "body": "",
+  "method": "GET",
+  "path": "/2.0/",
+  "queries": {
+    "api_key": "*",
+    "artist": "Taylor Swift",
+    "format": "json",
+    "method": "track.getInfo",
+    "track": "Look What You Made Me Do"
+  },
+  "rawHeaders": [
+    "Server",
+    "openresty/1.9.7.3",
+    "Date",
+    "Sun, 05 Nov 2017 04:32:18 GMT",
+    "Content-Type",
+    "application/json; charset=UTF-8",
+    "Content-Length",
+    "2525",
+    "Connection",
+    "keep-alive",
+    "Access-Control-Request-Headers",
+    "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+    "Access-Control-Allow-Methods",
+    "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin",
+    "*",
+    "Access-Control-Max-Age",
+    "86400"
+  ],
+  "response": {
+    "track": {
+      "album": {
+        "artist": "Taylor Swift",
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/f6de4aba39fd2119f3003b71fb4ee6ef.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/f6de4aba39fd2119f3003b71fb4ee6ef.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/f6de4aba39fd2119f3003b71fb4ee6ef.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/f6de4aba39fd2119f3003b71fb4ee6ef.png",
+            "size": "extralarge"
+          }
+        ],
+        "title": "Look What You Made Me Do",
+        "url": "https://www.last.fm/music/Taylor+Swift/Look+What+You+Made+Me+Do"
+      },
+      "artist": {
+        "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+        "name": "Taylor Swift",
+        "url": "https://www.last.fm/music/Taylor+Swift"
+      },
+      "duration": "210000",
+      "listeners": "118425",
+      "name": "Look What You Made Me Do",
+      "playcount": "2073604",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https://www.last.fm/tag/pop"
+          },
+          {
+            "name": "dance",
+            "url": "https://www.last.fm/tag/dance"
+          },
+          {
+            "name": "taylor swift",
+            "url": "https://www.last.fm/tag/taylor+swift"
+          },
+          {
+            "name": "electropop",
+            "url": "https://www.last.fm/tag/electropop"
+          },
+          {
+            "name": "best of 2017",
+            "url": "https://www.last.fm/tag/best+of+2017"
+          }
+        ]
+      },
+      "url": "https://www.last.fm/music/Taylor+Swift/_/Look+What+You+Made+Me+Do",
+      "wiki": {
+        "content": "\"Look What You Made Me Do\" is a song by American singer-songwriter Taylor Swift from her upcoming sixth studio album, reputation (2017). The song was released on August 25, 2017, along with the preorder of the album. Swift wrote the song with Jack Antonoff along with additional writing contributions from Fred Fairbrass, Richard Fairbrass, and Rob Manzoli. The song interpolates the 1992 house single \"I'm Too Sexy\" by Right Said Fred. <a href=\"http://www.last.fm/music/Taylor+Swift/_/Look+What+You+Made+Me+Do\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply.",
+        "published": "25 Aug 2017, 05:09",
+        "summary": "\"Look What You Made Me Do\" is a song by American singer-songwriter Taylor Swift from her upcoming sixth studio album, reputation (2017). The song was released on August 25, 2017, along with the preorder of the album. Swift wrote the song with Jack Antonoff along with additional writing contributions from Fred Fairbrass, Richard Fairbrass, and Rob Manzoli. The song interpolates the 1992 house single \"I'm Too Sexy\" by Right Said Fred. <a href=\"http://www.last.fm/music/Taylor+Swift/_/Look+What+You+Made+Me+Do\">Read more on Last.fm</a>."
+      }
+    }
+  },
+  "scope": "http://ws.audioscrobbler.com:80",
+  "status": 200
+}

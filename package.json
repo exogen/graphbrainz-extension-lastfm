@@ -27,7 +27,10 @@
     "prepare": "npm run clean && npm run build",
     "start": "babel-node scripts/start.js",
     "start:dev": "nodemon --exec babel-node scripts/start.js",
-    "test": "ava"
+    "test": "npm run lint && npm run test:only",
+    "test:only": "AVA_PLAYBACK=play ava",
+    "test:update": "AVA_PLAYBACK=record ava --serial --update-snapshots && npm run test:fixtures",
+    "test:fixtures": "babel-node scripts/fix-test-fixtures.js"
   },
   "peerDependencies": {
     "graphbrainz": "^7.1.0"
@@ -43,6 +46,7 @@
   },
   "devDependencies": {
     "ava": "^0.23.0",
+    "ava-playback": "^0.0.14",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
@@ -56,6 +60,7 @@
     "eslint-plugin-prettier": "^2.3.1",
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
+    "glob": "^7.1.2",
     "graphbrainz": "^7.1.0",
     "graphql": "^0.11.7",
     "graphql-markdown": "^3.2.0",
@@ -68,11 +73,13 @@
     "babel": "inherit",
     "require": [
       "dotenv/config",
-      "babel-register"
+      "babel-register",
+      "ava-playback"
     ],
     "files": [
       "src/**/*.test.js",
       "test"
-    ]
+    ],
+    "playbacks": "test/fixtures"
   }
 }

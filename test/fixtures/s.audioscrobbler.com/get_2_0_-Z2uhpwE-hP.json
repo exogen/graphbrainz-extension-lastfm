@@ -1,0 +1,263 @@
+{
+  "body": "",
+  "method": "GET",
+  "path": "/2.0/",
+  "queries": {
+    "api_key": "*",
+    "format": "json",
+    "lang": "fr",
+    "mbid": "9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6",
+    "method": "artist.getInfo"
+  },
+  "rawHeaders": [
+    "Server",
+    "openresty/1.9.7.3",
+    "Date",
+    "Sun, 05 Nov 2017 04:32:22 GMT",
+    "Content-Type",
+    "application/json; charset=UTF-8",
+    "Content-Length",
+    "14466",
+    "Connection",
+    "keep-alive",
+    "Access-Control-Request-Headers",
+    "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+    "Access-Control-Allow-Methods",
+    "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin",
+    "*",
+    "Access-Control-Max-Age",
+    "86400"
+  ],
+  "response": {
+    "artist": {
+      "bio": {
+        "content": " Nirvana est un groupe de musique rock américain considéré comme le révélateur de la mouvance grunge  Fondé en 1987, le groupe se sépara en 1994 suite à la mort de son principal compositeur, chanteur et guitariste Kurt Cobain.\n\nNaissance du groupe\n\nLes origines du groupe Nirvana se situent à Aberdeen, Washington vers 1985 sous le premier nom de Fecal Matter. Ses premiers membres sont Kurt Cobain (guitare et voix), Dale Crover (également batteur des Melvins, ici à la basse) et Greg Hokanson à la batterie. Le groupe se sépare rapidement. Par la suite Kurt Cobain rejoint par son ami Krist Novoselic à la basse fonde plusieurs groupes éphémères avec différents batteurs dont Dale Crover qui joue sur la plupart de leurs premières démos.\n\nLe groupe finit par prendre le nom définitif de Nirvana, avec Chad Channing à la batterie. Ils assurent plusieurs concerts et enregistrent diverses démos. Après l'enregistrement de Bleach, Channing sera remplacé par Dave Grohl. Après avoir assisté à un concert d'un groupe dans lequel jouait Dave, Kurt et Krist sont littéralement tombés amoureux de ce batteur, ils savaient en l'engageant que c'était exactement la personne dont ils avaient besoin.\n\nBleach\n\nEn 1989, Nirvana réalise l'album Bleach. Le titre \"Bleach\" a été trouvé par Kurt Cobain en voyant des affiches de prévention contre la drogue affichant \"bleach your works\" (nettoyez à l'eau oxygénée vos seringues), alors que le groupe effectuait une mini-tournée en Californie. Cet album se vend assez peu mais obtient un petit succès critique. Il incarne à lui seul toute la noirceur et le nihilisme des débuts du mouvement grunge avec des rythmiques lourdes et puissantes, des riffs agressifs, une guitare apocalyptique et surtout la voix impressionnante de Kurt Cobain, mais le style est encore très rapproché du punk. Néanmoins il comprend une piste qui laisse entrevoir l'aspect acoustique du groupe : About a girl, détonnant avec le reste de l'album par sa douceur, et qui sera d'ailleurs interprétée lors du MTV Unplugged in New York.\n\nDébut 1990, le groupe entre en studio afin de préparer le successeur de Bleach. Pendant ces sessions d'enregistrement, Cobain et Novoselic s'aperçoivent que Chad Channing ne correspond pas au son qu'ils souhaitent pour le groupe ; Dave Grohl rejoint alors Nirvana. Le trio signe sur la major Geffen Records après avoir été chaudement recommandé par Kim Gordon dont le groupe Sonic Youth a récemment rejoint le label.\n\nNevermind\n\nDeux ans après Bleach sort le second album de Nirvana : Nevermind, au son métamorphosé par une production plus pop-rock (que Kurt Cobain affirmait ne pas avoir voulue) de Butch Vig. Nevermind est un événement majeur et assez inattendu de la scène musicale mondiale qui va entraîner une véritable folie médiatique autour des labels indépendants et du grunge. Dans le domaine musical, Alice in Chains, Pearl Jam, Meat Puppets, Soundgarden ou encore Chokebore, dont Kurt Cobain dira qu'il s'agissait du groupe qu'il estimait le plus, se retrouvèrent sur le devant de la scène dans le sillage royal de Nirvana. Le titre phare de l'album Smells Like Teen Spirit passe en boucle sur MTV (au grand désespoir des membres du groupe) et devient un hymne encore aujourd'hui reconnaissable aux premiers accords de guitare. Le morceau est même sacré « hymne d'une génération » - la génération X. Le groupe (et en particulier son leader) semble avoir des difficultés à assumer ce succès démesuré qui contredit l'idéal musical punk et indépendant dans lequel l'univers de Nirvana prend sa source. Notons que le clip rend un hommage discret au groupe de hardcore américain Bad Brains.\n\nIncesticide\n\nEn 1992 sort Incesticide, une compilation de faces B des singles sortis chez Sub Pop et des premières démos du groupe. Nirvana refusera de faire la promotion de cet album édité sans l'aval du groupe. Il contient néanmoins des titres très populaires parmi les fans comme Sliver ou Aneurysm, ainsi que plusieurs reprises de groupes peu connus comme The Vaselines. À noter que pour la première fois, la pochette de l'album sera illustrée par une création artistique originale de Kurt Cobain. Voir aussi que sur le squelette de l'album, on peut y voir le mot \"cunt\" ce qui veut dire \"chatte\" en français. C'était voulu, puisque Kurt a lui-même montré le mot dans son dessin.\n\nIn Utero\n\nEn 1993 sort In Utero, album volontairement plus délicat d'écoute et moins dirigé vers le grand public. Le disque obtient cependant un grand succès critique et commercial, au grand dam de Kurt Cobain qui ne rêve que de pouvoir retourner dans l'anonymat. Toutefois malgré le succès du single Heart-Shaped Box, l'album n'atteignit pas les chiffres de vente de Nevermind. Un autre single, Rape Me (« viole-moi »), créa un petit scandale, s'attirant les foudres de groupes féministes. Cobain, se proclamant lui-même féministe, affirma pourtant que la chanson se voulait en réalité opposée au viol. Par ailleurs, la tournée In Utero aux États Unis débuta le 18 Octobre 1993 pour s'achever le 8 janvier 1994, et fut suivie d'une tournée européenne interrompue à Munich le premier mars suite aux problèmes de santé de Cobain. Ce sera le dernier concert du groupe.\n\nMTV Unplugged in New York\n\nEn novembre 1993, le groupe enregistre une session Unplugged (qui signfie littéralement « débranché ») dans les studios de MTV, qui deviendra un an plus tard un CD, dévoilant une toute autre face du groupe, la face acoustique, prouvant que Nirvana était plus qu'un groupe de rock violent. Dans ce live, Nirvana fait un duo avec le groupe Meat Puppets, reprenant trois de leurs titres : Plateau, Oh Me et surtout Lake of Fire et son magnifique solo. Le groupe reprend aussi une chanson de The Vaselines (Jesus Wants Me For A Sunbeam - renommé Jesus doesn't want me for a sunbeam) et un morceau de Leadbelly (Where Did You Sleep Last Night?). The man who sold the World, une reprise de David Bowie a aussi largement contribué à la renommée du groupe.\n\nMort du groupe\n\nLe décès de Kurt Cobain le 5 avril 1994 mettra fin à l'aventure Nirvana. Sa disparition sera l'objet de vives interrogations et de nombreux fans préféreront croire à un assassinat (commis par sa compagne Courtney Love, chanteuse du groupe Hole) qu'à un suicide. Ce qui, bien sûr, n'a jamais été prouvé, les deux partis exposants quelques fois des \"preuves\" inexistantes ou inexactes pour étayer leurs propos. \nDes rumeurs allaient bon train également concernant un divorce, le train de vie de Courtney et son goût pour l'argent et les belles choses (les chères choses) ne collant pas avec \"l'idéal\" de vie de Cobain, surtout à ce moment de sa vie où il n'avait envie-besoin que de tranquillité.\n\nLe groupe parlait déjà depuis quelque temps de la fin de leur carrière musicale, mais tout le monde l'aurait voulue moins tragique...\n\n\n\n2) Nirvana, duo prog rock baroque chamber britannique créé en 1967 par le musicien irlandais Patrick Campbell-Lyons et le compositeur grecque Alex Spyropoulos.\n Leur premier album produit par Chris Blackwell en 1967et intitulé The Story of Simon Simopath est un des tout premiers concept album publiés.\n Cet album étant enregistré avec des musiciens de studio, ils en embauchent quatre pour suivre leur tournée. Ceux-ci apparaissent sur les photos d'album pour donner l'image d'un groupe plutôt que celui d'un duo.\n Le groupe apparait à la télévision française avec Salvador Dalí , qui les éclabousse de peinture noire durant leur interprétation de  \"Rainbow Chaser.\" \n Campbell-Lyons ayant gardé la veste, a déclaré regretter que Dalí n'ai pas signé un de leurs vêtements éclaboussés de peinture. Island Records aurait envoyé une facture à l'artiste pour le nettoyage du violoncelle.\n Après le succès mineur de \"Rainbow Chaser\", leurs apparitions en direct deviennent de plus en plus rares, ils publient encore deux albums, All Of Us (1968) puis Black Flower (1970) (produit sans Blackwell). En 1971, le groupe se sépare et Patrick Campbell-Lyons enregistre encore deux album sous ce nom, Local Anaesthetic (1971) et Songs Of Love And Praise ( 1972 ).\n Le duo c'est réuni en 1985 pou une tournée en Europe conjointement à la sortie de l'album compilation Black Flower.\n D'autres album sont publié au cours des année 90: Secret Theatre 1994 compilation de titres rares et de démos et Orange and Blue (1996) contenant du matériel inédit et dont version de \"Lithium\", reprise du fameux groupe homonyme... \n <a href=\"https://www.last.fm/music/Nirvana\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply.",
+        "links": {
+          "link": {
+            "#text": "",
+            "href": "https://last.fm/music/Nirvana/+wiki",
+            "rel": "original"
+          }
+        },
+        "published": "17 Mar 2007, 22:39",
+        "summary": " Nirvana est un groupe de musique rock américain considéré comme le révélateur de la mouvance grunge  Fondé en 1987, le groupe se sépara en 1994 suite à la mort de son principal compositeur, chanteur et guitariste Kurt Cobain.\n\nNaissance du groupe\n\nLes origines du groupe Nirvana se situent à Aberdeen, Washington vers 1985 sous le premier nom de Fecal Matter. Ses premiers membres sont Kurt Cobain (guitare et voix), Dale Crover (également batteur des Melvins, ici à la basse) et Greg Hokanson à la batterie. <a href=\"https://www.last.fm/music/Nirvana\">Read more on Last.fm</a>"
+      },
+      "image": [
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/34s/a198d66df7ea4715bef111a0b2de7f09.png",
+          "size": "small"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/64s/a198d66df7ea4715bef111a0b2de7f09.png",
+          "size": "medium"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/174s/a198d66df7ea4715bef111a0b2de7f09.png",
+          "size": "large"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a198d66df7ea4715bef111a0b2de7f09.png",
+          "size": "extralarge"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a198d66df7ea4715bef111a0b2de7f09.png",
+          "size": "mega"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a198d66df7ea4715bef111a0b2de7f09.png",
+          "size": ""
+        }
+      ],
+      "mbid": "9282c8b4-ca0b-4c6b-b7e3-4f7762dfc4d6",
+      "name": "Nirvana",
+      "ontour": "0",
+      "similar": {
+        "artist": [
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/c5508c698189461b983e9bbbb875cfc2.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/c5508c698189461b983e9bbbb875cfc2.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/c5508c698189461b983e9bbbb875cfc2.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c5508c698189461b983e9bbbb875cfc2.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c5508c698189461b983e9bbbb875cfc2.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c5508c698189461b983e9bbbb875cfc2.png",
+                "size": ""
+              }
+            ],
+            "name": "Alice in Chains",
+            "url": "https://www.last.fm/music/Alice+in+Chains"
+          },
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7b6b98e93ecb4699a3c01e40730b0ab3.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7b6b98e93ecb4699a3c01e40730b0ab3.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7b6b98e93ecb4699a3c01e40730b0ab3.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7b6b98e93ecb4699a3c01e40730b0ab3.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7b6b98e93ecb4699a3c01e40730b0ab3.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7b6b98e93ecb4699a3c01e40730b0ab3.png",
+                "size": ""
+              }
+            ],
+            "name": "Mudhoney",
+            "url": "https://www.last.fm/music/Mudhoney"
+          },
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3700d0c3518f4bb7cbf5525b684a270d.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3700d0c3518f4bb7cbf5525b684a270d.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3700d0c3518f4bb7cbf5525b684a270d.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3700d0c3518f4bb7cbf5525b684a270d.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3700d0c3518f4bb7cbf5525b684a270d.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3700d0c3518f4bb7cbf5525b684a270d.png",
+                "size": ""
+              }
+            ],
+            "name": "Hole",
+            "url": "https://www.last.fm/music/Hole"
+          },
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/9f28044406774eb2b61d594245015dc0.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/9f28044406774eb2b61d594245015dc0.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/9f28044406774eb2b61d594245015dc0.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9f28044406774eb2b61d594245015dc0.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9f28044406774eb2b61d594245015dc0.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/9f28044406774eb2b61d594245015dc0.png",
+                "size": ""
+              }
+            ],
+            "name": "Soundgarden",
+            "url": "https://www.last.fm/music/Soundgarden"
+          },
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7d4984978ce1432b9ddb133d12d11000.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7d4984978ce1432b9ddb133d12d11000.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7d4984978ce1432b9ddb133d12d11000.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7d4984978ce1432b9ddb133d12d11000.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7d4984978ce1432b9ddb133d12d11000.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7d4984978ce1432b9ddb133d12d11000.png",
+                "size": ""
+              }
+            ],
+            "name": "Stone Temple Pilots",
+            "url": "https://www.last.fm/music/Stone+Temple+Pilots"
+          }
+        ]
+      },
+      "stats": {
+        "listeners": "4135186",
+        "playcount": "210865502"
+      },
+      "streamable": "0",
+      "tags": {
+        "tag": [
+          {
+            "name": "Grunge",
+            "url": "https://www.last.fm/tag/Grunge"
+          },
+          {
+            "name": "rock",
+            "url": "https://www.last.fm/tag/rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https://www.last.fm/tag/alternative"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https://www.last.fm/tag/alternative+rock"
+          },
+          {
+            "name": "90s",
+            "url": "https://www.last.fm/tag/90s"
+          }
+        ]
+      },
+      "url": "https://www.last.fm/music/Nirvana"
+    }
+  },
+  "scope": "http://ws.audioscrobbler.com:80",
+  "status": 200
+}

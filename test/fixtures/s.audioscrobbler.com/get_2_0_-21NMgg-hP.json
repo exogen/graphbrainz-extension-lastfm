@@ -1,0 +1,1712 @@
+{
+  "body": "",
+  "method": "GET",
+  "path": "/2.0/",
+  "queries": {
+    "api_key": "*",
+    "format": "json",
+    "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+    "method": "artist.getTopTracks"
+  },
+  "rawHeaders": [
+    "Server",
+    "openresty/1.9.7.3",
+    "Date",
+    "Sun, 05 Nov 2017 04:32:21 GMT",
+    "Content-Type",
+    "application/json; charset=UTF-8",
+    "Content-Length",
+    "38323",
+    "Connection",
+    "keep-alive",
+    "Access-Control-Request-Headers",
+    "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+    "Access-Control-Allow-Methods",
+    "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin",
+    "*",
+    "Access-Control-Max-Age",
+    "86400"
+  ],
+  "response": {
+    "toptracks": {
+      "@attr": {
+        "artist": "Kendrick Lamar",
+        "page": "1",
+        "perPage": "50",
+        "total": "43968",
+        "totalPages": "880"
+      },
+      "track": [
+        {
+          "@attr": {
+            "rank": "1"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "309429",
+          "mbid": "a3c6af59-af56-4d61-beac-032df8fc4015",
+          "name": "Backseat Freestyle",
+          "playcount": "2669398",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Backseat+Freestyle"
+        },
+        {
+          "@attr": {
+            "rank": "2"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "306442",
+          "mbid": "fceeb61d-4e64-43c8-9221-9aa4e5bf8ee3",
+          "name": "Bitch, Don’t Kill My Vibe",
+          "playcount": "2116376",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Bitch,+Don%E2%80%99t+Kill+My+Vibe"
+        },
+        {
+          "@attr": {
+            "rank": "3"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "294709",
+          "name": "King Kunta",
+          "playcount": "2396569",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/King+Kunta"
+        },
+        {
+          "@attr": {
+            "rank": "4"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "288209",
+          "name": "Poetic Justice",
+          "playcount": "2015341",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Poetic+Justice"
+        },
+        {
+          "@attr": {
+            "rank": "5"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "284583",
+          "mbid": "5fb18e9d-fb24-4d96-8410-032d3fc89568",
+          "name": "A.D.H.D",
+          "playcount": "1840293",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/A.D.H.D"
+        },
+        {
+          "@attr": {
+            "rank": "6"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "268030",
+          "mbid": "7dee4afc-5931-4295-955a-7ae44f403e70",
+          "name": "Swimming Pools (Drank)",
+          "playcount": "1723753",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Swimming+Pools+(Drank)"
+        },
+        {
+          "@attr": {
+            "rank": "7"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "245358",
+          "mbid": "1ff4c6af-044d-4c08-b32b-c007c3f22917",
+          "name": "i",
+          "playcount": "1587004",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/i"
+        },
+        {
+          "@attr": {
+            "rank": "8"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "234488",
+          "mbid": "cdd6d79c-b860-4329-b031-a0b933ca356f",
+          "name": "The Art of Peer Pressure",
+          "playcount": "1604562",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/The+Art+of+Peer+Pressure"
+        },
+        {
+          "@attr": {
+            "rank": "9"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "228650",
+          "name": "Alright",
+          "playcount": "1670613",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Alright"
+        },
+        {
+          "@attr": {
+            "rank": "10"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "222031",
+          "mbid": "7dee4afc-5931-4295-955a-7ae44f403e70",
+          "name": "Swimming Pools (Drank) (extended version)",
+          "playcount": "1625652",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Swimming+Pools+(Drank)+(extended+version)"
+        },
+        {
+          "@attr": {
+            "rank": "11"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "221544",
+          "name": "HUMBLE.",
+          "playcount": "2133463",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/HUMBLE."
+        },
+        {
+          "@attr": {
+            "rank": "12"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "220000",
+          "name": "m.A.A.d city",
+          "playcount": "1355627",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/m.A.A.d+city"
+        },
+        {
+          "@attr": {
+            "rank": "13"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "211538",
+          "name": "Money Trees",
+          "playcount": "1429174",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Money+Trees"
+        },
+        {
+          "@attr": {
+            "rank": "14"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "210929",
+          "mbid": "f97b35bd-e333-4f98-9d98-a7f7c8380237",
+          "name": "good kid",
+          "playcount": "1345228",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/good+kid"
+        },
+        {
+          "@attr": {
+            "rank": "15"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "198810",
+          "name": "Sherane a.k.a Master Splinter’s Daughter",
+          "playcount": "959963",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Sherane+a.k.a+Master+Splinter%E2%80%99s+Daughter"
+        },
+        {
+          "@attr": {
+            "rank": "16"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "191858",
+          "mbid": "e93ffc87-5306-4975-8d7a-298914cb96b9",
+          "name": "Hol' Up",
+          "playcount": "1003194",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Hol%27+Up"
+        },
+        {
+          "@attr": {
+            "rank": "17"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "176417",
+          "name": "DNA.",
+          "playcount": "1515919",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/DNA."
+        },
+        {
+          "@attr": {
+            "rank": "18"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "168594",
+          "name": "The Blacker the Berry",
+          "playcount": "1043998",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/The+Blacker+the+Berry"
+        },
+        {
+          "@attr": {
+            "rank": "19"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "164526",
+          "name": "Wesley's Theory",
+          "playcount": "830713",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Wesley%27s+Theory"
+        },
+        {
+          "@attr": {
+            "rank": "20"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "162557",
+          "name": "u",
+          "playcount": "873463",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/u"
+        },
+        {
+          "@attr": {
+            "rank": "21"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "153252",
+          "name": "Sing About Me, I'm Dying of Thirst",
+          "playcount": "833024",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Sing+About+Me,+I%27m+Dying+of+Thirst"
+        },
+        {
+          "@attr": {
+            "rank": "22"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "149574",
+          "name": "These Walls",
+          "playcount": "777727",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/These+Walls"
+        },
+        {
+          "@attr": {
+            "rank": "23"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "148145",
+          "mbid": "0b3a5113-82eb-4b62-9f45-53e172bd0857",
+          "name": "HiiiPower",
+          "playcount": "780580",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/HiiiPower"
+        },
+        {
+          "@attr": {
+            "rank": "24"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "147218",
+          "name": "Rigamortus",
+          "playcount": "811464",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Rigamortus"
+        },
+        {
+          "@attr": {
+            "rank": "25"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "147008",
+          "name": "Momma",
+          "playcount": "726740",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Momma"
+        },
+        {
+          "@attr": {
+            "rank": "26"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "146923",
+          "name": "Hood Politics",
+          "playcount": "775042",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Hood+Politics"
+        },
+        {
+          "@attr": {
+            "rank": "27"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "144721",
+          "name": "Institutionalized",
+          "playcount": "701082",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Institutionalized"
+        },
+        {
+          "@attr": {
+            "rank": "28"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "137886",
+          "name": "ELEMENT.",
+          "playcount": "990024",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/ELEMENT."
+        },
+        {
+          "@attr": {
+            "rank": "29"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "129943",
+          "name": "You Ain't Gotta Lie (Momma Said)",
+          "playcount": "625506",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/You+Ain%27t+Gotta+Lie+(Momma+Said)"
+        },
+        {
+          "@attr": {
+            "rank": "30"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "128728",
+          "name": "YAH.",
+          "playcount": "803141",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/YAH."
+        },
+        {
+          "@attr": {
+            "rank": "31"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "128269",
+          "name": "Ronald Reagan Era",
+          "playcount": "620123",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Ronald+Reagan+Era"
+        },
+        {
+          "@attr": {
+            "rank": "32"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "125989",
+          "name": "BLOOD.",
+          "playcount": "610353",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/BLOOD."
+        },
+        {
+          "@attr": {
+            "rank": "33"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "123050",
+          "mbid": "f9cacc1a-f4a1-4c6d-aa3f-25d543648e8f",
+          "name": "Chapter Six",
+          "playcount": "528471",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Chapter+Six"
+        },
+        {
+          "@attr": {
+            "rank": "34"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "121254",
+          "name": "FEEL.",
+          "playcount": "726075",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/FEEL."
+        },
+        {
+          "@attr": {
+            "rank": "35"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "120417",
+          "name": "PRIDE.",
+          "playcount": "755842",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/PRIDE."
+        },
+        {
+          "@attr": {
+            "rank": "36"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "118300",
+          "name": "How Much a Dollar Cost",
+          "playcount": "531115",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/How+Much+a+Dollar+Cost"
+        },
+        {
+          "@attr": {
+            "rank": "37"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "117673",
+          "mbid": "eae1550e-ab67-4313-ac9d-699386b6c498",
+          "name": "Ignorance Is Bliss",
+          "playcount": "310930",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Ignorance+Is+Bliss"
+        },
+        {
+          "@attr": {
+            "rank": "38"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "115813",
+          "mbid": "3e574af4-2c79-4346-a39d-1ef21041238e",
+          "name": "Tammy's Song (Her Evils)",
+          "playcount": "471096",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Tammy%27s+Song+(Her+Evils)"
+        },
+        {
+          "@attr": {
+            "rank": "39"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "115653",
+          "name": "LOYALTY. FEAT. RIHANNA.",
+          "playcount": "745283",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/LOYALTY.+FEAT.+RIHANNA."
+        },
+        {
+          "@attr": {
+            "rank": "40"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "115128",
+          "name": "For Free? - Interlude",
+          "playcount": "447849",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/For+Free%3F+-+Interlude"
+        },
+        {
+          "@attr": {
+            "rank": "41"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "113270",
+          "name": "Mortal Man",
+          "playcount": "455674",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Mortal+Man"
+        },
+        {
+          "@attr": {
+            "rank": "42"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "111601",
+          "name": "LUST.",
+          "playcount": "627415",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/LUST."
+        },
+        {
+          "@attr": {
+            "rank": "43"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "111563",
+          "name": "Compton",
+          "playcount": "438770",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Compton"
+        },
+        {
+          "@attr": {
+            "rank": "44"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "107012",
+          "mbid": "71e79c40-5cd5-49b3-9879-8326bd7f9879",
+          "name": "Chapter Ten",
+          "playcount": "412294",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Chapter+Ten"
+        },
+        {
+          "@attr": {
+            "rank": "45"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "106558",
+          "name": "Complexion (A Zulu Love)",
+          "playcount": "445623",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Complexion+(A+Zulu+Love)"
+        },
+        {
+          "@attr": {
+            "rank": "46"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "101424",
+          "name": "Blow My High (Members Only)",
+          "playcount": "517913",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Blow+My+High+(Members+Only)"
+        },
+        {
+          "@attr": {
+            "rank": "47"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "100639",
+          "name": "LOVE. FEAT. ZACARI.",
+          "playcount": "633227",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/LOVE.+FEAT.+ZACARI."
+        },
+        {
+          "@attr": {
+            "rank": "48"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "99295",
+          "mbid": "00d53e4d-e7af-44eb-81d3-4be58af6fb08",
+          "name": "Real",
+          "playcount": "393414",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Real"
+        },
+        {
+          "@attr": {
+            "rank": "49"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "99027",
+          "mbid": "5fb8fbca-b553-4f8e-abce-865f15e48cf0",
+          "name": "Average Joe",
+          "playcount": "224366",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Average+Joe"
+        },
+        {
+          "@attr": {
+            "rank": "50"
+          },
+          "artist": {
+            "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+            "name": "Kendrick Lamar",
+            "url": "https://www.last.fm/music/Kendrick+Lamar"
+          },
+          "image": [
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/34s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "small"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/64s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "medium"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/174s/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "large"
+            },
+            {
+              "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/fa53efb99b075d4f4d59bb8969500b5a.png",
+              "size": "extralarge"
+            }
+          ],
+          "listeners": "98498",
+          "name": "Fear.",
+          "playcount": "500928",
+          "streamable": "0",
+          "url": "https://www.last.fm/music/Kendrick+Lamar/_/Fear."
+        }
+      ]
+    }
+  },
+  "scope": "http://ws.audioscrobbler.com:80",
+  "status": 200
+}

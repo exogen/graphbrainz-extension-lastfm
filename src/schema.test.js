@@ -67,3 +67,108 @@ test(
   }
 `
 )
+
+test(
+  'fields available only in getInfo queries are available in connections',
+  testQuerySnapshot,
+  `
+    {
+      lastFM {
+        chart {
+          topTracks(first: 5) {
+            nodes {
+              mbid
+              title
+              artist {
+                mbid
+                name
+                url
+                image
+                topTags(first: 5) {
+                  nodes {
+                    name
+                  }
+                }
+                topTracks(first: 5) {
+                  nodes {
+                    title
+                  }
+                }
+              }
+              album {
+                mbid
+                title
+                url
+                image
+                artist {
+                  mbid
+                  name
+                  url
+                  image
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `
+)
+
+test(
+  'MusicBrainz artists has a lastFM artist field',
+  testQuerySnapshot,
+  `
+  {
+    lookup {
+      artist(mbid: "5b11f4ce-a62d-471e-81fc-a69a8278c7da") {
+        lastFM {
+          mbid
+          name
+          url
+          image
+          imageSmall: image(size: SMALL)
+          imageMedium: image(size: MEDIUM)
+          imageLarge: image(size: LARGE)
+          imageExtraLarge: image(size: EXTRALARGE)
+          imageMega: image(size: MEGA)
+          listenerCount
+          playCount
+          biography {
+            summaryHTML
+            contentHTML
+            publishDate
+            publishTime
+            url
+          }
+          biographyFR: biography(lang: "fr") {
+            summaryHTML
+            contentHTML
+            publishDate
+            publishTime
+            url
+          }
+          topTags(first: 5) {
+            nodes {
+              name
+              url
+            }
+          }
+          topTracks(first: 5) {
+            nodes {
+              title
+              url
+            }
+          }
+          topAlbums(first: 5) {
+            nodes {
+              title
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+`
+)

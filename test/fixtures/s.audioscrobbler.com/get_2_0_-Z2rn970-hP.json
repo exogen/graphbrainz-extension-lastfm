@@ -1,0 +1,261 @@
+{
+  "body": "",
+  "method": "GET",
+  "path": "/2.0/",
+  "queries": {
+    "api_key": "*",
+    "artist": "Dua Lipa",
+    "format": "json",
+    "method": "artist.getInfo"
+  },
+  "rawHeaders": [
+    "Server",
+    "openresty/1.9.7.3",
+    "Date",
+    "Sun, 05 Nov 2017 04:32:17 GMT",
+    "Content-Type",
+    "application/json; charset=UTF-8",
+    "Content-Length",
+    "7337",
+    "Connection",
+    "keep-alive",
+    "Access-Control-Request-Headers",
+    "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+    "Access-Control-Allow-Methods",
+    "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin",
+    "*",
+    "Access-Control-Max-Age",
+    "86400"
+  ],
+  "response": {
+    "artist": {
+      "bio": {
+        "content": "Dua Lipa was born in London on 22 August 1995. Her first name \"Dua\" is an Albanian word which means \"love\" or \"want\". Her parents, who are ethnic Albanians from Kosovo, had left Prishtina in the 1990s. Among the schools she attended was the Sylvia Young Theatre School. She moved with her family to Kosovo in 2008, the year the country declared its independence from Serbia. At the age of 15, she moved back to London and lived with friends, because she wanted to build a career in music. She began working as a model at age 16. Lipa grew up listening to her father, the Kosovan rock singer Dukagjin Lipa, sing. At the age of 14 she began posting covers of her favourite songs by artists such as Christina Aguilera and Nelly Furtado on YouTube.\n\nIn 2015 Dua Lipa began working on her debut album for Warner Bros. Records. In August 2015 she released her first single \"New Love\", produced by Emile Haynie and Andrew Wyatt. She released her second single \"Be the One,\" written by Lucy \"Pawws\" Taylor, in October 2015. Dua Lipa has said that \"Be the One is the only song on my album I haven't written ... [but] I couldn't not take it, it's my favourite thing\". Dua Lipa describes her musical style as \"dark pop\". On 30 November 2015, she was revealed as one of the acts on the \"BBC Sound of...2016\" long list. Her first tour in the UK and Europe began in January 2016. Her self-titled debut album was released on 2 June 2017. Her European Self-Titled Tour starts in October. She will be also supporting Bruno Mars on his 24k Magic World Tour in the USA in September 2017 and later in February and March 2018 in New Zealand and Australia.  <a href=\"https://www.last.fm/music/Dua+Lipa\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply.",
+        "links": {
+          "link": {
+            "#text": "",
+            "href": "https://last.fm/music/Dua+Lipa/+wiki",
+            "rel": "original"
+          }
+        },
+        "published": "26 Apr 2016, 03:42",
+        "summary": "Dua Lipa was born in London on 22 August 1995. Her first name \"Dua\" is an Albanian word which means \"love\" or \"want\". Her parents, who are ethnic Albanians from Kosovo, had left Prishtina in the 1990s. Among the schools she attended was the Sylvia Young Theatre School. She moved with her family to Kosovo in 2008, the year the country declared its independence from Serbia. At the age of 15, she moved back to London and lived with friends, because she wanted to build a career in music. <a href=\"https://www.last.fm/music/Dua+Lipa\">Read more on Last.fm</a>"
+      },
+      "image": [
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/34s/211ac43ef7936fb9bd3570e229143f99.png",
+          "size": "small"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/64s/211ac43ef7936fb9bd3570e229143f99.png",
+          "size": "medium"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/174s/211ac43ef7936fb9bd3570e229143f99.png",
+          "size": "large"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/211ac43ef7936fb9bd3570e229143f99.png",
+          "size": "extralarge"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/211ac43ef7936fb9bd3570e229143f99.png",
+          "size": "mega"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/211ac43ef7936fb9bd3570e229143f99.png",
+          "size": ""
+        }
+      ],
+      "name": "Dua Lipa",
+      "ontour": "1",
+      "similar": {
+        "artist": [
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/14e7f4d6e74521f795de8ca141c6bf89.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/14e7f4d6e74521f795de8ca141c6bf89.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/14e7f4d6e74521f795de8ca141c6bf89.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/14e7f4d6e74521f795de8ca141c6bf89.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/14e7f4d6e74521f795de8ca141c6bf89.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/14e7f4d6e74521f795de8ca141c6bf89.png",
+                "size": ""
+              }
+            ],
+            "name": "Halsey",
+            "url": "https://www.last.fm/music/Halsey"
+          },
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/3de2d5d81807b247c505df3418fcaffa.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/3de2d5d81807b247c505df3418fcaffa.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/3de2d5d81807b247c505df3418fcaffa.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3de2d5d81807b247c505df3418fcaffa.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3de2d5d81807b247c505df3418fcaffa.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/3de2d5d81807b247c505df3418fcaffa.png",
+                "size": ""
+              }
+            ],
+            "name": "Lorde",
+            "url": "https://www.last.fm/music/Lorde"
+          },
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/c5996ecb53bd50304a796a627b26a53f.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/c5996ecb53bd50304a796a627b26a53f.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/c5996ecb53bd50304a796a627b26a53f.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c5996ecb53bd50304a796a627b26a53f.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c5996ecb53bd50304a796a627b26a53f.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/c5996ecb53bd50304a796a627b26a53f.png",
+                "size": ""
+              }
+            ],
+            "name": "Ke$ha",
+            "url": "https://www.last.fm/music/Ke$ha"
+          },
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/4752030c924289c71034f4dfecc06353.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/4752030c924289c71034f4dfecc06353.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/4752030c924289c71034f4dfecc06353.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/4752030c924289c71034f4dfecc06353.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/4752030c924289c71034f4dfecc06353.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/4752030c924289c71034f4dfecc06353.png",
+                "size": ""
+              }
+            ],
+            "name": "Camila Cabello",
+            "url": "https://www.last.fm/music/Camila+Cabello"
+          },
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7a81ca364e54f5992a1a81f81e62182a.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7a81ca364e54f5992a1a81f81e62182a.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7a81ca364e54f5992a1a81f81e62182a.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7a81ca364e54f5992a1a81f81e62182a.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7a81ca364e54f5992a1a81f81e62182a.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7a81ca364e54f5992a1a81f81e62182a.png",
+                "size": ""
+              }
+            ],
+            "name": "Bebe Rexha",
+            "url": "https://www.last.fm/music/Bebe+Rexha"
+          }
+        ]
+      },
+      "stats": {
+        "listeners": "261022",
+        "playcount": "9272877"
+      },
+      "streamable": "0",
+      "tags": {
+        "tag": [
+          {
+            "name": "pop",
+            "url": "https://www.last.fm/tag/pop"
+          },
+          {
+            "name": "british",
+            "url": "https://www.last.fm/tag/british"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https://www.last.fm/tag/female+vocalists"
+          },
+          {
+            "name": "synthpop",
+            "url": "https://www.last.fm/tag/synthpop"
+          },
+          {
+            "name": "electropop",
+            "url": "https://www.last.fm/tag/electropop"
+          }
+        ]
+      },
+      "url": "https://www.last.fm/music/Dua+Lipa"
+    }
+  },
+  "scope": "http://ws.audioscrobbler.com:80",
+  "status": 200
+}

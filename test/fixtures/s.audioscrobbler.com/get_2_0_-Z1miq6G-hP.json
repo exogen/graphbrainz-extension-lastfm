@@ -1,0 +1,207 @@
+{
+  "body": "",
+  "method": "GET",
+  "path": "/2.0/",
+  "queries": {
+    "api_key": "*",
+    "format": "json",
+    "mbid": "381086ea-f511-4aba-bdf9-71c753dc5077",
+    "method": "artist.getTopTags"
+  },
+  "rawHeaders": [
+    "Server",
+    "openresty/1.9.7.3",
+    "Date",
+    "Sun, 05 Nov 2017 04:32:20 GMT",
+    "Content-Type",
+    "application/json; charset=UTF-8",
+    "Content-Length",
+    "2564",
+    "Connection",
+    "keep-alive",
+    "Access-Control-Request-Headers",
+    "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+    "Access-Control-Allow-Methods",
+    "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin",
+    "*",
+    "Access-Control-Max-Age",
+    "86400"
+  ],
+  "response": {
+    "toptags": {
+      "@attr": {
+        "artist": "Kendrick Lamar"
+      },
+      "tag": [
+        {
+          "count": 100,
+          "name": "Hip-Hop",
+          "url": "https://www.last.fm/tag/Hip-Hop"
+        },
+        {
+          "count": 69,
+          "name": "rap",
+          "url": "https://www.last.fm/tag/rap"
+        },
+        {
+          "count": 35,
+          "name": "seen live",
+          "url": "https://www.last.fm/tag/seen+live"
+        },
+        {
+          "count": 31,
+          "name": "west coast",
+          "url": "https://www.last.fm/tag/west+coast"
+        },
+        {
+          "count": 21,
+          "name": "California",
+          "url": "https://www.last.fm/tag/California"
+        },
+        {
+          "count": 20,
+          "name": "compton",
+          "url": "https://www.last.fm/tag/compton"
+        },
+        {
+          "count": 15,
+          "name": "hip hop",
+          "url": "https://www.last.fm/tag/hip+hop"
+        },
+        {
+          "count": 8,
+          "name": "american",
+          "url": "https://www.last.fm/tag/american"
+        },
+        {
+          "count": 5,
+          "name": "West Coast Rap",
+          "url": "https://www.last.fm/tag/West+Coast+Rap"
+        },
+        {
+          "count": 5,
+          "name": "underground hip-hop",
+          "url": "https://www.last.fm/tag/underground+hip-hop"
+        },
+        {
+          "count": 4,
+          "name": "jazz rap",
+          "url": "https://www.last.fm/tag/jazz+rap"
+        },
+        {
+          "count": 4,
+          "name": "west coast hip-hop",
+          "url": "https://www.last.fm/tag/west+coast+hip-hop"
+        },
+        {
+          "count": 4,
+          "name": "Conscious Hip Hop",
+          "url": "https://www.last.fm/tag/Conscious+Hip+Hop"
+        },
+        {
+          "count": 4,
+          "name": "kendrick lamar",
+          "url": "https://www.last.fm/tag/kendrick+lamar"
+        },
+        {
+          "count": 4,
+          "name": "black hippy",
+          "url": "https://www.last.fm/tag/black+hippy"
+        },
+        {
+          "count": 3,
+          "name": "conscious hip-hop",
+          "url": "https://www.last.fm/tag/conscious+hip-hop"
+        },
+        {
+          "count": 3,
+          "name": "west coast hip hop",
+          "url": "https://www.last.fm/tag/west+coast+hip+hop"
+        },
+        {
+          "count": 3,
+          "name": "los angeles",
+          "url": "https://www.last.fm/tag/los+angeles"
+        },
+        {
+          "count": 3,
+          "name": "hiphop",
+          "url": "https://www.last.fm/tag/hiphop"
+        },
+        {
+          "count": 2,
+          "name": "underground rap",
+          "url": "https://www.last.fm/tag/underground+rap"
+        },
+        {
+          "count": 2,
+          "name": "male vocalists",
+          "url": "https://www.last.fm/tag/male+vocalists"
+        },
+        {
+          "count": 2,
+          "name": "funk",
+          "url": "https://www.last.fm/tag/funk"
+        },
+        {
+          "count": 2,
+          "name": "tde",
+          "url": "https://www.last.fm/tag/tde"
+        },
+        {
+          "count": 2,
+          "name": "USA",
+          "url": "https://www.last.fm/tag/USA"
+        },
+        {
+          "count": 2,
+          "name": "Jazz Hop",
+          "url": "https://www.last.fm/tag/Jazz+Hop"
+        },
+        {
+          "count": 2,
+          "name": "10s",
+          "url": "https://www.last.fm/tag/10s"
+        },
+        {
+          "count": 2,
+          "name": "hardcore hip-hop",
+          "url": "https://www.last.fm/tag/hardcore+hip-hop"
+        },
+        {
+          "count": 2,
+          "name": "swag",
+          "url": "https://www.last.fm/tag/swag"
+        },
+        {
+          "count": 2,
+          "name": "Gangsta Rap",
+          "url": "https://www.last.fm/tag/Gangsta+Rap"
+        },
+        {
+          "count": 2,
+          "name": "alternative hip-hop",
+          "url": "https://www.last.fm/tag/alternative+hip-hop"
+        },
+        {
+          "count": 2,
+          "name": "abstract hip-hop",
+          "url": "https://www.last.fm/tag/abstract+hip-hop"
+        },
+        {
+          "count": 2,
+          "name": "2010s",
+          "url": "https://www.last.fm/tag/2010s"
+        },
+        {
+          "count": 1,
+          "name": "pop rap",
+          "url": "https://www.last.fm/tag/pop+rap"
+        }
+      ]
+    }
+  },
+  "scope": "http://ws.audioscrobbler.com:80",
+  "status": 200
+}

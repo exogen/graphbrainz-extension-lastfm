@@ -1,0 +1,99 @@
+{
+  "body": "",
+  "method": "GET",
+  "path": "/2.0/",
+  "queries": {
+    "api_key": "*",
+    "artist": "Portugal. The Man",
+    "format": "json",
+    "method": "track.getInfo",
+    "track": "Feel It Still"
+  },
+  "rawHeaders": [
+    "Server",
+    "openresty/1.9.7.3",
+    "Date",
+    "Sun, 05 Nov 2017 04:32:20 GMT",
+    "Content-Type",
+    "application/json; charset=UTF-8",
+    "Content-Length",
+    "1242",
+    "Connection",
+    "keep-alive",
+    "Access-Control-Request-Headers",
+    "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+    "Access-Control-Allow-Methods",
+    "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin",
+    "*",
+    "Access-Control-Max-Age",
+    "86400"
+  ],
+  "response": {
+    "track": {
+      "album": {
+        "artist": "Portugal. The Man",
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/517a7bb64b7754ca784d5759fb523582.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/517a7bb64b7754ca784d5759fb523582.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/517a7bb64b7754ca784d5759fb523582.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/517a7bb64b7754ca784d5759fb523582.png",
+            "size": "extralarge"
+          }
+        ],
+        "title": "Feel It Still",
+        "url": "https://www.last.fm/music/Portugal.+The+Man/Feel+It+Still"
+      },
+      "artist": {
+        "mbid": "3599a39e-4e10-4cb5-90d4-c8a015ebc73b",
+        "name": "Portugal. The Man",
+        "url": "https://www.last.fm/music/Portugal.+The+Man"
+      },
+      "duration": "163000",
+      "listeners": "132346",
+      "name": "Feel It Still",
+      "playcount": "816841",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "party",
+            "url": "https://www.last.fm/tag/party"
+          },
+          {
+            "name": "Portugal the Man",
+            "url": "https://www.last.fm/tag/Portugal+the+Man"
+          },
+          {
+            "name": "Disco",
+            "url": "https://www.last.fm/tag/Disco"
+          },
+          {
+            "name": "indie",
+            "url": "https://www.last.fm/tag/indie"
+          },
+          {
+            "name": "indie pop",
+            "url": "https://www.last.fm/tag/indie+pop"
+          }
+        ]
+      },
+      "url": "https://www.last.fm/music/Portugal.+The+Man/_/Feel+It+Still"
+    }
+  },
+  "scope": "http://ws.audioscrobbler.com:80",
+  "status": 200
+}

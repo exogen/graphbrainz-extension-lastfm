@@ -1,0 +1,262 @@
+{
+  "body": "",
+  "method": "GET",
+  "path": "/2.0/",
+  "queries": {
+    "api_key": "*",
+    "format": "json",
+    "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+    "method": "artist.getInfo"
+  },
+  "rawHeaders": [
+    "Server",
+    "openresty/1.9.7.3",
+    "Date",
+    "Sun, 05 Nov 2017 04:32:18 GMT",
+    "Content-Type",
+    "application/json; charset=UTF-8",
+    "Content-Length",
+    "7487",
+    "Connection",
+    "keep-alive",
+    "Access-Control-Request-Headers",
+    "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+    "Access-Control-Allow-Methods",
+    "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin",
+    "*",
+    "Access-Control-Max-Age",
+    "86400"
+  ],
+  "response": {
+    "artist": {
+      "bio": {
+        "content": "Taylor Alison Swift (born December 13, 1989 in Wyomissing, Pennsylvania) is an American pop singer-songwriter and actress. Swift is a 10-time Grammy winner with a total of 23 nominations (Feb 2016). \n\nIn 2006, she released her debut single \"Tim McGraw\", then her self-titled debut album, which was subsequently certified multi-platinum by the Recording Industry Association of America.\n\nIn November 2008, Swift released her second album, Fearless, which featured a number of more pop oriented songs such as \"You Belong With Me\" and \"Love Story\". Fearless was the best-selling album in 2009 in the USA and was awarded with 4 Grammy's.\n\nSwift's third and fourth albums, 2010's \"Speak Now\" and 2012's \"Red\", both sold over one million copies within the first week of their US release. “Speak Now” won two Grammy Awards, while “Red’s” singles \" We Are Never Ever Getting Back Together \" and \" I Knew You Were Trouble\" were worldwide hits.\n\nThe 1989 was released on October 27, 2014. It marked a move away from her earlier country sounds and fully into pop. Both the title (\"1989\") and the overall sound of the album - synth pop - were a nod to her birth year and nostalgia with the 1980s. It became the best-selling album of 2014, selling 3.66m copies in USA, and as of April 2015, it had sold 4.5m copies in the US (9m worldwide).  The first single from the album was \"Shake It Off\" (released on August 18, 2014), which reached number one on the Billboard Hot 100.\n\nOn February 15, 2016, Taylor Swift won \"album of the year\" at the 58th Grammy Awards for \"1989\".\nhttp://taylorswift.com\n <a href=\"https://www.last.fm/music/Taylor+Swift\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply.",
+        "links": {
+          "link": {
+            "#text": "",
+            "href": "https://last.fm/music/Taylor+Swift/+wiki",
+            "rel": "original"
+          }
+        },
+        "published": "16 Aug 2006, 21:31",
+        "summary": "Taylor Alison Swift (born December 13, 1989 in Wyomissing, Pennsylvania) is an American pop singer-songwriter and actress. Swift is a 10-time Grammy winner with a total of 23 nominations (Feb 2016). \n\nIn 2006, she released her debut single \"Tim McGraw\", then her self-titled debut album, which was subsequently certified multi-platinum by the Recording Industry Association of America.\n\nIn November 2008, Swift released her second album, Fearless, which featured a number of more pop oriented songs such as \"You Belong With Me\" and \"Love Story\". <a href=\"https://www.last.fm/music/Taylor+Swift\">Read more on Last.fm</a>"
+      },
+      "image": [
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/34s/612b502832200530c350ce8292e6692b.png",
+          "size": "small"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/64s/612b502832200530c350ce8292e6692b.png",
+          "size": "medium"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/174s/612b502832200530c350ce8292e6692b.png",
+          "size": "large"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/612b502832200530c350ce8292e6692b.png",
+          "size": "extralarge"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/612b502832200530c350ce8292e6692b.png",
+          "size": "mega"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/612b502832200530c350ce8292e6692b.png",
+          "size": ""
+        }
+      ],
+      "mbid": "20244d07-534f-4eff-b4d4-930878889970",
+      "name": "Taylor Swift",
+      "ontour": "1",
+      "similar": {
+        "artist": [
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/b05cb7f179555d1b76d9dcf5136ba461.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/b05cb7f179555d1b76d9dcf5136ba461.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/b05cb7f179555d1b76d9dcf5136ba461.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/b05cb7f179555d1b76d9dcf5136ba461.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/b05cb7f179555d1b76d9dcf5136ba461.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/b05cb7f179555d1b76d9dcf5136ba461.png",
+                "size": ""
+              }
+            ],
+            "name": "Selena Gomez",
+            "url": "https://www.last.fm/music/Selena+Gomez"
+          },
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/beab52ee91ac3292ea292da913fc533d.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/beab52ee91ac3292ea292da913fc533d.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/beab52ee91ac3292ea292da913fc533d.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/beab52ee91ac3292ea292da913fc533d.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/beab52ee91ac3292ea292da913fc533d.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/beab52ee91ac3292ea292da913fc533d.png",
+                "size": ""
+              }
+            ],
+            "name": "Demi Lovato",
+            "url": "https://www.last.fm/music/Demi+Lovato"
+          },
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/a7ed805dfa55171ed66396933c2a4eb9.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/a7ed805dfa55171ed66396933c2a4eb9.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/a7ed805dfa55171ed66396933c2a4eb9.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a7ed805dfa55171ed66396933c2a4eb9.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a7ed805dfa55171ed66396933c2a4eb9.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/a7ed805dfa55171ed66396933c2a4eb9.png",
+                "size": ""
+              }
+            ],
+            "name": "Katy Perry",
+            "url": "https://www.last.fm/music/Katy+Perry"
+          },
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/7d00ce34e581923bd5a2c01fdf08f66e.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/7d00ce34e581923bd5a2c01fdf08f66e.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/7d00ce34e581923bd5a2c01fdf08f66e.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7d00ce34e581923bd5a2c01fdf08f66e.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7d00ce34e581923bd5a2c01fdf08f66e.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/7d00ce34e581923bd5a2c01fdf08f66e.png",
+                "size": ""
+              }
+            ],
+            "name": "Ariana Grande",
+            "url": "https://www.last.fm/music/Ariana+Grande"
+          },
+          {
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/0a1097a4691c86b051f929e9abfbbb0e.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/0a1097a4691c86b051f929e9abfbbb0e.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/0a1097a4691c86b051f929e9abfbbb0e.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/0a1097a4691c86b051f929e9abfbbb0e.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/0a1097a4691c86b051f929e9abfbbb0e.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/0a1097a4691c86b051f929e9abfbbb0e.png",
+                "size": ""
+              }
+            ],
+            "name": "Miley Cyrus",
+            "url": "https://www.last.fm/music/Miley+Cyrus"
+          }
+        ]
+      },
+      "stats": {
+        "listeners": "2028431",
+        "playcount": "131507131"
+      },
+      "streamable": "0",
+      "tags": {
+        "tag": [
+          {
+            "name": "country",
+            "url": "https://www.last.fm/tag/country"
+          },
+          {
+            "name": "pop",
+            "url": "https://www.last.fm/tag/pop"
+          },
+          {
+            "name": "female vocalists",
+            "url": "https://www.last.fm/tag/female+vocalists"
+          },
+          {
+            "name": "singer-songwriter",
+            "url": "https://www.last.fm/tag/singer-songwriter"
+          },
+          {
+            "name": "acoustic",
+            "url": "https://www.last.fm/tag/acoustic"
+          }
+        ]
+      },
+      "url": "https://www.last.fm/music/Taylor+Swift"
+    }
+  },
+  "scope": "http://ws.audioscrobbler.com:80",
+  "status": 200
+}

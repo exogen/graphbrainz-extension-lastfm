@@ -1,8 +1,10 @@
 import countryList from 'country-list'
 import dateFormat from 'dateformat'
-import { connectionFromArraySlice, getOffsetWithDefault } from 'graphql-relay'
+import {
+  connectionFromArraySlice /* getOffsetWithDefault */
+} from 'graphql-relay'
 
-const debug = require('debug')('graphbrainz-extension-lastfm/resolvers')
+// const debug = require('debug')('graphbrainz-extension-lastfm/resolvers')
 
 const countries = countryList()
 
