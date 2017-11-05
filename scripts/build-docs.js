@@ -4,7 +4,7 @@ import baseSchema, { createSchema } from 'graphbrainz/lib/schema'
 import { updateSchema, diffSchema } from 'graphql-markdown'
 import extension from '../src'
 
-const baseURL = 'https://github.com/exogen/graphbrainz/docs/types.md'
+const baseSchemaURL = 'https://github.com/exogen/graphbrainz/docs/types.md'
 const schema = createSchema(baseSchema, { extensions: [extension] })
 
 function getSchemaJSON(schema) {
@@ -17,14 +17,14 @@ Promise.all([getSchemaJSON(baseSchema), getSchemaJSON(schema)])
       processTypeDiff(type) {
         if (type.description === undefined) {
           type.description = `:small_blue_diamond: *This type has been extended.
-See the [base schema](${baseURL}) for a description and additional fields.*`
+See the [base schema](${baseSchemaURL}) for a description and additional fields.*`
         }
         return type
       }
     })
     const outputPath = path.resolve(__dirname, '../README.md')
     return updateSchema(outputPath, outputSchema, {
-      unknownTypeURL: '../types.md',
+      unknownTypeURL: baseSchemaURL,
       headingLevel: 2
     })
   })

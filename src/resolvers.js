@@ -2,6 +2,8 @@ import countryList from 'country-list'
 import dateFormat from 'dateformat'
 import { connectionFromArraySlice, getOffsetWithDefault } from 'graphql-relay'
 
+const debug = require('debug')('graphbrainz-extension-lastfm/resolvers')
+
 const countries = countryList()
 
 function resolveImage(entity, args) {

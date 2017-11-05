@@ -147,7 +147,7 @@ Release.
 <tbody>
 <tr>
 <td colspan="2" valign="top"><strong>mbid</strong></td>
-<td valign="top"><a href="../types.md#mbid">MBID</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#mbid">MBID</a></td>
 <td>
 
 The MBID of the corresponding MusicBrainz release.
@@ -156,7 +156,7 @@ The MBID of the corresponding MusicBrainz release.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>title</strong></td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The title of the album according to [Last.fm](https://www.last.fm/).
@@ -165,7 +165,7 @@ The title of the album according to [Last.fm](https://www.last.fm/).
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>url</strong></td>
-<td valign="top"><a href="../types.md#urlstring">URLString</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#urlstring">URLString</a>!</td>
 <td>
 
 The URL for the album on [Last.fm](https://www.last.fm/).
@@ -174,7 +174,7 @@ The URL for the album on [Last.fm](https://www.last.fm/).
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>image</strong></td>
-<td valign="top"><a href="../types.md#urlstring">URLString</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#urlstring">URLString</a></td>
 <td>
 
 An image of the cover artwork of the release.
@@ -192,7 +192,7 @@ The size of the image to retrieve.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>listenerCount</strong></td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The number of listeners recorded for the album.
@@ -201,7 +201,7 @@ The number of listeners recorded for the album.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>playCount</strong></td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The number of plays recorded for the album.
@@ -220,7 +220,7 @@ languages.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">lang</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The two-letter code for the language in which to retrieve the description.
@@ -248,7 +248,7 @@ A list of tags applied to the artist by users, ordered by popularity.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">first</td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The maximum number of tags to retrieve.
@@ -257,7 +257,7 @@ The maximum number of tags to retrieve.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">after</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The cursor of the edge after which more tags will be retrieved.
@@ -283,7 +283,7 @@ A connection to a list of items.
 <tbody>
 <tr>
 <td colspan="2" valign="top"><strong>pageInfo</strong></td>
-<td valign="top"><a href="../types.md#pageinfo">PageInfo</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#pageinfo">PageInfo</a>!</td>
 <td>
 
 Information to aid in pagination.
@@ -310,7 +310,7 @@ A list of nodes in the connection (without going through the `edges` field).
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>totalCount</strong></td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 A count of the total number of items in this connection, ignoring pagination.
@@ -345,7 +345,7 @@ The item at the end of the edge.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>cursor</strong></td>
-<td valign="top"><a href="../types.md#string">String</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a>!</td>
 <td>
 
 A cursor for use in pagination.
@@ -371,7 +371,7 @@ An artist on [Last.fm](https://www.last.fm/).
 <tbody>
 <tr>
 <td colspan="2" valign="top"><strong>mbid</strong></td>
-<td valign="top"><a href="../types.md#mbid">MBID</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#mbid">MBID</a></td>
 <td>
 
 The MBID of the corresponding MusicBrainz artist.
@@ -380,7 +380,7 @@ The MBID of the corresponding MusicBrainz artist.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>name</strong></td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The name of the artist according to [Last.fm](https://www.last.fm/).
@@ -389,7 +389,7 @@ The name of the artist according to [Last.fm](https://www.last.fm/).
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>url</strong></td>
-<td valign="top"><a href="../types.md#urlstring">URLString</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#urlstring">URLString</a>!</td>
 <td>
 
 The URL for the artist on [Last.fm](https://www.last.fm/).
@@ -398,7 +398,7 @@ The URL for the artist on [Last.fm](https://www.last.fm/).
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>image</strong></td>
-<td valign="top"><a href="../types.md#urlstring">URLString</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#urlstring">URLString</a></td>
 <td>
 
 An image of the artist.
@@ -416,7 +416,7 @@ The size of the image to retrieve.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>listenerCount</strong></td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The number of listeners recorded for the artist.
@@ -425,7 +425,7 @@ The number of listeners recorded for the artist.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>playCount</strong></td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The number of plays recorded for the artist.
@@ -443,7 +443,7 @@ A list of similar artists.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">first</td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The maximum number of artists to retrieve.
@@ -452,7 +452,7 @@ The maximum number of artists to retrieve.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">after</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The cursor of the edge after which more artists will be retrieved.
@@ -470,7 +470,7 @@ A list of the artist’s most popular albums.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">first</td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The maximum number of albums to retrieve.
@@ -479,7 +479,7 @@ The maximum number of albums to retrieve.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">after</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The cursor of the edge after which more albums will be retrieved.
@@ -497,7 +497,7 @@ A list of tags applied to the artist by users, ordered by popularity.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">first</td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The maximum number of tags to retrieve.
@@ -506,7 +506,7 @@ The maximum number of tags to retrieve.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">after</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The cursor of the edge after which more tags will be retrieved.
@@ -524,7 +524,7 @@ A list of the artist’s most popular tracks.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">first</td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The maximum number of tracks to retrieve.
@@ -533,7 +533,7 @@ The maximum number of tracks to retrieve.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">after</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The cursor of the edge after which more tracks will be retrieved.
@@ -551,7 +551,7 @@ A biography of the artist, often available in several languages.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">lang</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The two-letter code for the language in which to retrieve the biography.
@@ -577,7 +577,7 @@ A connection to a list of items.
 <tbody>
 <tr>
 <td colspan="2" valign="top"><strong>pageInfo</strong></td>
-<td valign="top"><a href="../types.md#pageinfo">PageInfo</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#pageinfo">PageInfo</a>!</td>
 <td>
 
 Information to aid in pagination.
@@ -604,7 +604,7 @@ A list of nodes in the connection (without going through the `edges` field).
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>totalCount</strong></td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 A count of the total number of items in this connection, ignoring pagination.
@@ -639,7 +639,7 @@ The item at the end of the edge.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>cursor</strong></td>
-<td valign="top"><a href="../types.md#string">String</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a>!</td>
 <td>
 
 A cursor for use in pagination.
@@ -648,7 +648,7 @@ A cursor for use in pagination.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>matchScore</strong></td>
-<td valign="top"><a href="../types.md#float">Float</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#float">Float</a></td>
 <td>
 
 The artist similarity score (0–1) as determined by [Last.fm](https://www.last.fm/),
@@ -685,7 +685,7 @@ retrieve the most popular artists in that country.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">country</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 A two-letter [ISO 3166 country code](https://en.wikipedia.org/wiki/ISO_3166).
@@ -694,7 +694,7 @@ A two-letter [ISO 3166 country code](https://en.wikipedia.org/wiki/ISO_3166).
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">first</td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The maximum number of artists to retrieve.
@@ -703,7 +703,7 @@ The maximum number of artists to retrieve.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">after</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The cursor of the edge after which more artists will be retrieved.
@@ -721,7 +721,7 @@ The most popular tags, ordered by popularity.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">first</td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The maximum number of tags to retrieve.
@@ -730,7 +730,7 @@ The maximum number of tags to retrieve.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">after</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The cursor of the edge after which more tags will be retrieved.
@@ -749,7 +749,7 @@ retrieve the most popular artists in that country.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">country</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 A two-letter [ISO 3166 country code](https://en.wikipedia.org/wiki/ISO_3166).
@@ -758,7 +758,7 @@ A two-letter [ISO 3166 country code](https://en.wikipedia.org/wiki/ISO_3166).
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">first</td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The maximum number of tracks to retrieve.
@@ -767,7 +767,7 @@ The maximum number of tracks to retrieve.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">after</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The cursor of the edge after which more tracks will be retrieved.
@@ -802,7 +802,7 @@ The top artists in this country, ordered by popularity.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">first</td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The maximum number of artists to retrieve.
@@ -811,7 +811,7 @@ The maximum number of artists to retrieve.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">after</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The cursor of the edge after which more artists will be retrieved.
@@ -829,7 +829,7 @@ The top tracks in this country, ordered by popularity.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">first</td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The maximum number of tracks to retrieve.
@@ -838,7 +838,7 @@ The maximum number of tracks to retrieve.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">after</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The cursor of the edge after which more tracks will be retrieved.
@@ -891,7 +891,7 @@ A tag added by users to an entity on [Last.fm](https://www.last.fm/).
 <tbody>
 <tr>
 <td colspan="2" valign="top"><strong>name</strong></td>
-<td valign="top"><a href="../types.md#string">String</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a>!</td>
 <td>
 
 The tag name.
@@ -900,7 +900,7 @@ The tag name.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>url</strong></td>
-<td valign="top"><a href="../types.md#urlstring">URLString</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#urlstring">URLString</a>!</td>
 <td>
 
 The URL for the tag on [Last.fm](https://www.last.fm/).
@@ -926,7 +926,7 @@ A connection to a list of items.
 <tbody>
 <tr>
 <td colspan="2" valign="top"><strong>pageInfo</strong></td>
-<td valign="top"><a href="../types.md#pageinfo">PageInfo</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#pageinfo">PageInfo</a>!</td>
 <td>
 
 Information to aid in pagination.
@@ -953,7 +953,7 @@ A list of nodes in the connection (without going through the `edges` field).
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>totalCount</strong></td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 A count of the total number of items in this connection, ignoring pagination.
@@ -988,7 +988,7 @@ The item at the end of the edge.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>cursor</strong></td>
-<td valign="top"><a href="../types.md#string">String</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a>!</td>
 <td>
 
 A cursor for use in pagination.
@@ -997,7 +997,7 @@ A cursor for use in pagination.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>tagCount</strong></td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The number of times the tag has been applied to the item in question.
@@ -1024,7 +1024,7 @@ Recording.
 <tbody>
 <tr>
 <td colspan="2" valign="top"><strong>mbid</strong></td>
-<td valign="top"><a href="../types.md#mbid">MBID</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#mbid">MBID</a></td>
 <td>
 
 The MBID of the corresponding MusicBrainz recording.
@@ -1033,7 +1033,7 @@ The MBID of the corresponding MusicBrainz recording.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>title</strong></td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The title of the track according to [Last.fm](https://www.last.fm/).
@@ -1042,7 +1042,7 @@ The title of the track according to [Last.fm](https://www.last.fm/).
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>url</strong></td>
-<td valign="top"><a href="../types.md#urlstring">URLString</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#urlstring">URLString</a>!</td>
 <td>
 
 The URL for the track on [Last.fm](https://www.last.fm/).
@@ -1051,7 +1051,7 @@ The URL for the track on [Last.fm](https://www.last.fm/).
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>duration</strong></td>
-<td valign="top"><a href="../types.md#duration">Duration</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#duration">Duration</a></td>
 <td>
 
 The length of the track.
@@ -1060,7 +1060,7 @@ The length of the track.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>listenerCount</strong></td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The number of listeners recorded for the track.
@@ -1069,7 +1069,7 @@ The number of listeners recorded for the track.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>playCount</strong></td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The number of plays recorded for the track.
@@ -1088,7 +1088,7 @@ languages.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">lang</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The two-letter code for the language in which to retrieve the description.
@@ -1126,7 +1126,7 @@ A list of similar tracks.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">first</td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The maximum number of tracks to retrieve.
@@ -1135,7 +1135,7 @@ The maximum number of tracks to retrieve.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">after</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The cursor of the edge after which more tracks will be retrieved.
@@ -1153,7 +1153,7 @@ A list of tags applied to the track by users, ordered by popularity.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">first</td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 The maximum number of tags to retrieve.
@@ -1162,7 +1162,7 @@ The maximum number of tags to retrieve.
 </tr>
 <tr>
 <td colspan="2" align="right" valign="top">after</td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The cursor of the edge after which more tags will be retrieved.
@@ -1188,7 +1188,7 @@ A connection to a list of items.
 <tbody>
 <tr>
 <td colspan="2" valign="top"><strong>pageInfo</strong></td>
-<td valign="top"><a href="../types.md#pageinfo">PageInfo</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#pageinfo">PageInfo</a>!</td>
 <td>
 
 Information to aid in pagination.
@@ -1215,7 +1215,7 @@ A list of nodes in the connection (without going through the `edges` field).
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>totalCount</strong></td>
-<td valign="top"><a href="../types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
 <td>
 
 A count of the total number of items in this connection, ignoring pagination.
@@ -1250,7 +1250,7 @@ The item at the end of the edge.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>cursor</strong></td>
-<td valign="top"><a href="../types.md#string">String</a>!</td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a>!</td>
 <td>
 
 A cursor for use in pagination.
@@ -1259,7 +1259,7 @@ A cursor for use in pagination.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>matchScore</strong></td>
-<td valign="top"><a href="../types.md#float">Float</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#float">Float</a></td>
 <td>
 
 The track similarity score (0–1) as determined by [Last.fm](https://www.last.fm/),
@@ -1287,7 +1287,7 @@ Biographical or background information written about an entity on
 <tbody>
 <tr>
 <td colspan="2" valign="top"><strong>summaryHTML</strong></td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 A summary of the wiki content, which may contain HTML.
@@ -1296,7 +1296,7 @@ A summary of the wiki content, which may contain HTML.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>contentHTML</strong></td>
-<td valign="top"><a href="../types.md#string">String</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#string">String</a></td>
 <td>
 
 The full wiki content, which may contain HTML.
@@ -1305,7 +1305,7 @@ The full wiki content, which may contain HTML.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>publishDate</strong></td>
-<td valign="top"><a href="../types.md#date">Date</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#date">Date</a></td>
 <td>
 
 The date the content was published. The data is reformatted from the Last.fm
@@ -1315,7 +1315,7 @@ API’s original format into the Date scalar format.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>publishTime</strong></td>
-<td valign="top"><a href="../types.md#time">Time</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#time">Time</a></td>
 <td>
 
 The time the content was published. The data is reformatted from the Last.fm
@@ -1326,7 +1326,7 @@ indication as to which time zone the time is in.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>url</strong></td>
-<td valign="top"><a href="../types.md#urlstring">URLString</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#urlstring">URLString</a></td>
 <td>
 
 The URL at which the content was published.

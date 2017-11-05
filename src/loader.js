@@ -2,7 +2,7 @@ import qs from 'qs'
 import DataLoader from 'dataloader'
 import LRUCache from 'lru-cache'
 
-const debug = require('debug')('graphbrainz:extensions/last-fm')
+const debug = require('debug')('graphbrainz-extension-lastfm/loader')
 
 export default function createLoader(options) {
   const { client } = options
