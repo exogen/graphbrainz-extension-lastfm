@@ -148,6 +148,20 @@ test(
             publishTime
             url
           }
+          similarArtists(first: 5) {
+            edges {
+              matchScore
+              node {
+                mbid
+                name
+                topTracks(first: 1) {
+                  nodes {
+                    title
+                  }
+                }
+              }
+            }
+          }
           topTags(first: 5) {
             nodes {
               name
