@@ -40,35 +40,6 @@ test('lastFM queries fail if there is no API key configured', t => {
 })
 
 test(
-  'lastFM chart queries are available from the root query',
-  testQuerySnapshot,
-  `
-  {
-    lastFM {
-      chart {
-        topArtists(first: 5) {
-          totalCount
-          nodes {
-            mbid
-            name
-            url
-          }
-        }
-        topTracks(first: 5) {
-          totalCount
-          nodes {
-            mbid
-            title
-            url
-          }
-        }
-      }
-    }
-  }
-`
-)
-
-test(
   'fields available only in getInfo queries are available in connections',
   testQuerySnapshot,
   `
@@ -411,12 +382,17 @@ test(
 )
 
 test(
-  'chart topTracks can be queried by country',
+  'chart topTracks can be queried globally and by country',
   testQuerySnapshot,
   `
   {
     lastFM {
       chart {
+        topArtists(first: 5) {
+          nodes {
+            name
+          }
+        }
         topArtistsJP: topArtists(country: "JP", first: 5) {
           nodes {
             name
@@ -434,12 +410,17 @@ test(
 )
 
 test(
-  'chart topArtists can be queried by country',
+  'chart topArtists can be queried globally and by country',
   testQuerySnapshot,
   `
   {
     lastFM {
       chart {
+        topTracks(first: 5) {
+          nodes {
+            title
+          }
+        }
         topTracksJP: topTracks(country: "JP", first: 5) {
           nodes {
             title
@@ -457,7 +438,7 @@ test(
 )
 
 test(
-  'chart topTags',
+  'chart topTags can be queried globally',
   testQuerySnapshot,
   `
   {
