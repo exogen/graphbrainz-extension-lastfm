@@ -1,0 +1,59 @@
+{
+  "name": "graphbrainz-extension-lastfm",
+  "version": "0.0.0",
+  "description": "Last.fm GraphQL extension for GraphBrainz.",
+  "keywords": [
+    "graphbrainz",
+    "extension",
+    "musicbrainz",
+    "graphql",
+    "last.fm",
+    "lastfm"
+  ],
+  "author": "Brian Beck <exogen@gmail.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "npm run build:lib && npm run build:docs",
+    "build:docs": "babel-node scripts/build-docs.js",
+    "build:lib": "babel --out-dir lib src",
+    "clean": "rimraf lib",
+    "format": "npm run lint:fix",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "prepare": "npm run clean && npm run build",
+    "start": "babel-node demo/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "graphbrainz": "^7.1.0"
+  },
+  "dependencies": {
+    "country-list": "^1.1.0",
+    "dateformat": "^3.0.2",
+    "graphql-relay": "^0.5.3"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "eslint": "^4.10.0",
+    "eslint-config-prettier": "^2.7.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-prettier": "^2.3.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "graphbrainz": "^7.1.0",
+    "graphql": "^0.11.7",
+    "graphql-markdown": "^3.2.0",
+    "nyc": "^11.3.0",
+    "prettier": "^1.7.4",
+    "rimraf": "^2.6.2"
+  }
+}
