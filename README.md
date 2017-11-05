@@ -2,6 +2,25 @@
 
 Retrieve artist, release, and recording information from [Last.fm](https://www.last.fm/).
 
+To use this extension, install [GraphBrainz](https://github.com/exogen/graphbrainz),
+then:
+
+```console
+$ npm install graphbrainz-extension-lastfm
+$ GRAPHBRAINZ_EXTENSIONS="graphbrainz-extension-lastfm" graphbrainz
+```
+
+Or, if you are using the middleware directly:
+
+```js
+import graphbrainz from 'graphbrainz'
+
+const middleware = graphbrainz({
+  // Don't forget to add the other extensions you use, too.
+  extensions: ['graphbrainz-extension-lastfm']
+})
+```
+
 This extension uses its own cache, separate from the MusicBrainz loader cache.
 
 ## Configuration
