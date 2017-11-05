@@ -280,3 +280,67 @@ test(
   }
 `
 )
+
+test(
+  'chart topTracks can be queried by country',
+  testQuerySnapshot,
+  `
+  {
+    lastFM {
+      chart {
+        topArtistsJP: topArtists(country: "JP", first: 5) {
+          nodes {
+            name
+          }
+        }
+        topArtistsGB: topArtists(country: "GB", first: 5) {
+          nodes {
+            name
+          }
+        }
+      }
+    }
+  }
+`
+)
+
+test(
+  'chart topArtists can be queried by country',
+  testQuerySnapshot,
+  `
+  {
+    lastFM {
+      chart {
+        topTracksJP: topTracks(country: "JP", first: 5) {
+          nodes {
+            title
+          }
+        }
+        topTracksGB: topTracks(country: "GB", first: 5) {
+          nodes {
+            title
+          }
+        }
+      }
+    }
+  }
+`
+)
+
+test(
+  'chart topTags',
+  testQuerySnapshot,
+  `
+  {
+    lastFM {
+      chart {
+        topTags(first: 5) {
+          nodes {
+            name
+          }
+        }
+      }
+    }
+  }
+`
+)

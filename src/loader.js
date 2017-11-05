@@ -156,6 +156,7 @@ export default function createLoader(options) {
             case 'artistTopTags':
             case 'albumTopTags':
             case 'trackTopTags':
+            case 'chartTopTags':
               return client[method](params)
             default:
               throw new Error(`Unsupported client method: ${method}`)
