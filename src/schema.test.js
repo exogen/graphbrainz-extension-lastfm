@@ -116,7 +116,7 @@ test(
 )
 
 test(
-  'MusicBrainz artists has a lastFM artist field',
+  'MusicBrainz artists have a lastFM artist field',
   testQuerySnapshot,
   `
   {
@@ -163,6 +163,121 @@ test(
           topAlbums(first: 5) {
             nodes {
               title
+              url
+            }
+          }
+        }
+      }
+    }
+  }
+`
+)
+
+test(
+  'MusicBrainz recordings have a lastFM field',
+  testQuerySnapshot,
+  `
+  {
+    lookup {
+      recording(mbid: "9f9cf187-d6f9-437f-9d98-d59cdbd52757") {
+        title
+        lastFM {
+          mbid
+          title
+          url
+          duration
+          listenerCount
+          playCount
+          description {
+            summaryHTML
+            contentHTML
+            publishDate
+            publishTime
+            url
+          }
+          descriptionES: description(lang: "es") {
+            summaryHTML
+            contentHTML
+            publishDate
+            publishTime
+            url
+          }
+          artist {
+            mbid
+            name
+          }
+          album {
+            mbid
+            title
+          }
+          similarTracks(first: 5) {
+            edges {
+              matchScore
+              node {
+                mbid
+                title
+                url
+              }
+            }
+          }
+          topTags(first: 5) {
+            edges {
+              tagCount
+              node {
+                name
+                url
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`
+)
+
+test(
+  'MusicBrainz releases have a lastFM field',
+  testQuerySnapshot,
+  `
+  {
+    lookup {
+      release(mbid: "b84ee12a-09ef-421b-82de-0441a926375b") {
+        title
+        lastFM {
+          mbid
+          title
+          url
+          image
+          image
+          imageSmall: image(size: SMALL)
+          imageMedium: image(size: MEDIUM)
+          imageLarge: image(size: LARGE)
+          imageExtraLarge: image(size: EXTRALARGE)
+          imageMega: image(size: MEGA)
+          listenerCount
+          playCount
+          description {
+            summaryHTML
+            contentHTML
+            publishDate
+            publishTime
+            url
+          }
+          descriptionFR: description(lang: "fr") {
+            summaryHTML
+            contentHTML
+            publishDate
+            publishTime
+            url
+          }
+          artist {
+            name
+            mbid
+          }
+          topTags(first: 5) {
+            nodes {
+              name
               url
             }
           }

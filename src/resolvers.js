@@ -84,10 +84,10 @@ function createWikiResolver(fieldName = 'wiki') {
 
 function createTopTagsResolver(method) {
   return function resolveTopTags(entity, args, context) {
-    // For some reason, `track.getTopTags` doesn't support MBID lookups but the
-    // others do?!
+    // For some reason, `track.getTopTags` and `album.getTopTags` don't support
+    // MBID lookups.
     const params =
-      method === 'trackTopTags'
+      method === 'trackTopTags' || method === 'albumTopTags'
         ? entity.fetchByNameParams()
         : entity.fetchParams()
     if (!params) {

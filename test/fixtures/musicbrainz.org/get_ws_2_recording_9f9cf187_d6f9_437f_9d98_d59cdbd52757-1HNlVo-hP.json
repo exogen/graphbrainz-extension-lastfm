@@ -1,0 +1,39 @@
+{
+  "body": "",
+  "method": "GET",
+  "path": "/ws/2/recording/9f9cf187-d6f9-437f-9d98-d59cdbd52757",
+  "queries": {
+    "fmt": "json"
+  },
+  "rawHeaders": [
+    "Date",
+    "Sun, 05 Nov 2017 07:18:58 GMT",
+    "Content-Type",
+    "application/json; charset=utf-8",
+    "Content-Length",
+    "122",
+    "Connection",
+    "close",
+    "X-RateLimit-Limit",
+    "1200",
+    "X-RateLimit-Remaining",
+    "919",
+    "X-RateLimit-Reset",
+    "1509866339",
+    "Server",
+    "Plack::Handler::Starlet",
+    "ETag",
+    "\"72888ba3981b9c39ba4b1fc1b922224e\"",
+    "Access-Control-Allow-Origin",
+    "*"
+  ],
+  "response": {
+    "disambiguation": "",
+    "id": "9f9cf187-d6f9-437f-9d98-d59cdbd52757",
+    "length": 383493,
+    "title": "Paranoid Android",
+    "video": false
+  },
+  "scope": "http://musicbrainz.org:80",
+  "status": 200
+}

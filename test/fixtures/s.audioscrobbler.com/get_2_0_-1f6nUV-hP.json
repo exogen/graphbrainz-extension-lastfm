@@ -1,0 +1,272 @@
+{
+  "body": "",
+  "method": "GET",
+  "path": "/2.0/",
+  "queries": {
+    "api_key": "*",
+    "format": "json",
+    "mbid": "9290923d-3b97-45ab-aac1-4880980c72ed",
+    "method": "album.getInfo"
+  },
+  "rawHeaders": [
+    "Server",
+    "openresty/1.9.7.3",
+    "Date",
+    "Sun, 05 Nov 2017 07:19:01 GMT",
+    "Content-Type",
+    "application/json; charset=UTF-8",
+    "Content-Length",
+    "6182",
+    "Connection",
+    "keep-alive",
+    "Access-Control-Request-Headers",
+    "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+    "Access-Control-Allow-Methods",
+    "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin",
+    "*",
+    "Access-Control-Max-Age",
+    "86400"
+  ],
+  "response": {
+    "album": {
+      "artist": "Pink Floyd",
+      "image": [
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/34s/ad72064705cf4368b135f2a58848cca6.png",
+          "size": "small"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/64s/ad72064705cf4368b135f2a58848cca6.png",
+          "size": "medium"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/174s/ad72064705cf4368b135f2a58848cca6.png",
+          "size": "large"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/ad72064705cf4368b135f2a58848cca6.png",
+          "size": "extralarge"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/ad72064705cf4368b135f2a58848cca6.png",
+          "size": "mega"
+        },
+        {
+          "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/ad72064705cf4368b135f2a58848cca6.png",
+          "size": ""
+        }
+      ],
+      "listeners": "1116840",
+      "mbid": "9290923d-3b97-45ab-aac1-4880980c72ed",
+      "name": "The Dark Side of the Moon",
+      "playcount": "36030475",
+      "tags": {
+        "tag": [
+          {
+            "name": "Progressive rock",
+            "url": "https://www.last.fm/tag/Progressive+rock"
+          },
+          {
+            "name": "albums I own",
+            "url": "https://www.last.fm/tag/albums+I+own"
+          },
+          {
+            "name": "classic rock",
+            "url": "https://www.last.fm/tag/classic+rock"
+          },
+          {
+            "name": "favorite albums",
+            "url": "https://www.last.fm/tag/favorite+albums"
+          },
+          {
+            "name": "70s",
+            "url": "https://www.last.fm/tag/70s"
+          }
+        ]
+      },
+      "tracks": {
+        "track": [
+          {
+            "@attr": {
+              "rank": "1"
+            },
+            "artist": {
+              "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+              "name": "Pink Floyd",
+              "url": "https://www.last.fm/music/Pink+Floyd"
+            },
+            "duration": "90",
+            "name": "Speak to Me",
+            "streamable": {
+              "#text": "0",
+              "fulltrack": "0"
+            },
+            "url": "https://www.last.fm/music/Pink+Floyd/_/Speak+to+Me"
+          },
+          {
+            "@attr": {
+              "rank": "2"
+            },
+            "artist": {
+              "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+              "name": "Pink Floyd",
+              "url": "https://www.last.fm/music/Pink+Floyd"
+            },
+            "duration": "190",
+            "name": "Breathe (In The Air)",
+            "streamable": {
+              "#text": "0",
+              "fulltrack": "0"
+            },
+            "url": "https://www.last.fm/music/Pink+Floyd/_/Breathe+(In+The+Air)"
+          },
+          {
+            "@attr": {
+              "rank": "3"
+            },
+            "artist": {
+              "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+              "name": "Pink Floyd",
+              "url": "https://www.last.fm/music/Pink+Floyd"
+            },
+            "duration": "216",
+            "name": "On the Run",
+            "streamable": {
+              "#text": "0",
+              "fulltrack": "0"
+            },
+            "url": "https://www.last.fm/music/Pink+Floyd/_/On+the+Run"
+          },
+          {
+            "@attr": {
+              "rank": "4"
+            },
+            "artist": {
+              "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+              "name": "Pink Floyd",
+              "url": "https://www.last.fm/music/Pink+Floyd"
+            },
+            "duration": "316",
+            "name": "Time",
+            "streamable": {
+              "#text": "0",
+              "fulltrack": "0"
+            },
+            "url": "https://www.last.fm/music/Pink+Floyd/_/Time"
+          },
+          {
+            "@attr": {
+              "rank": "5"
+            },
+            "artist": {
+              "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+              "name": "Pink Floyd",
+              "url": "https://www.last.fm/music/Pink+Floyd"
+            },
+            "duration": "352",
+            "name": "The Great Gig in the Sky",
+            "streamable": {
+              "#text": "0",
+              "fulltrack": "0"
+            },
+            "url": "https://www.last.fm/music/Pink+Floyd/_/The+Great+Gig+in+the+Sky"
+          },
+          {
+            "@attr": {
+              "rank": "6"
+            },
+            "artist": {
+              "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+              "name": "Pink Floyd",
+              "url": "https://www.last.fm/music/Pink+Floyd"
+            },
+            "duration": "592",
+            "name": "Money",
+            "streamable": {
+              "#text": "0",
+              "fulltrack": "0"
+            },
+            "url": "https://www.last.fm/music/Pink+Floyd/_/Money"
+          },
+          {
+            "@attr": {
+              "rank": "7"
+            },
+            "artist": {
+              "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+              "name": "Pink Floyd",
+              "url": "https://www.last.fm/music/Pink+Floyd"
+            },
+            "duration": "454",
+            "name": "Us and Them",
+            "streamable": {
+              "#text": "0",
+              "fulltrack": "0"
+            },
+            "url": "https://www.last.fm/music/Pink+Floyd/_/Us+and+Them"
+          },
+          {
+            "@attr": {
+              "rank": "8"
+            },
+            "artist": {
+              "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+              "name": "Pink Floyd",
+              "url": "https://www.last.fm/music/Pink+Floyd"
+            },
+            "duration": "205",
+            "name": "Any Colour You Like",
+            "streamable": {
+              "#text": "0",
+              "fulltrack": "0"
+            },
+            "url": "https://www.last.fm/music/Pink+Floyd/_/Any+Colour+You+Like"
+          },
+          {
+            "@attr": {
+              "rank": "9"
+            },
+            "artist": {
+              "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+              "name": "Pink Floyd",
+              "url": "https://www.last.fm/music/Pink+Floyd"
+            },
+            "duration": "230",
+            "name": "Brain Damage",
+            "streamable": {
+              "#text": "0",
+              "fulltrack": "0"
+            },
+            "url": "https://www.last.fm/music/Pink+Floyd/_/Brain+Damage"
+          },
+          {
+            "@attr": {
+              "rank": "10"
+            },
+            "artist": {
+              "mbid": "83d91898-7763-47d7-b03b-b92132375c47",
+              "name": "Pink Floyd",
+              "url": "https://www.last.fm/music/Pink+Floyd"
+            },
+            "duration": "105",
+            "name": "Eclipse",
+            "streamable": {
+              "#text": "0",
+              "fulltrack": "0"
+            },
+            "url": "https://www.last.fm/music/Pink+Floyd/_/Eclipse"
+          }
+        ]
+      },
+      "url": "https://www.last.fm/music/Pink+Floyd/The+Dark+Side+of+the+Moon",
+      "wiki": {
+        "content": "The Dark Side of the Moon (titled Dark Side of the Moon in the 1993 CD edition) is a concept album by the British art rock band Pink Floyd. It was released on March 17, 1973 in the U.S. and March 24, 1973 in the UK.\n\nThe Dark Side of the Moon builds upon previous experimentation Pink Floyd had done, especially on their album Meddle. Its themes include old age, conflict and insanity; the latter possibly inspired by the deteriorating mental state of their former band leader Syd Barrett. The album is notable for its use of special effects and conceptual, philosophical lyrics, as found in much of Pink Floyd’s work.\n\nThe band’s most successful release, The Dark Side of the Moon spent 741 consecutive weeks (14 years) on the USA-based Billboard 200 album chart, the longest duration of any album in history.It is one of three albums tied for the claim of second highest selling album globally of all time, selling 45 million units. In addition to its commercial success, The Dark Side of the Moon is often considered to be the group’s defining work, and is still frequently ranked by music critics as one of the greatest and most influential albums of all time. <a href=\"http://www.last.fm/music/Pink+Floyd/The+Dark+Side+of+the+Moon\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply.",
+        "published": "20 Aug 2008, 09:44",
+        "summary": "The Dark Side of the Moon (titled Dark Side of the Moon in the 1993 CD edition) is a concept album by the British art rock band Pink Floyd. It was released on March 17, 1973 in the U.S. and March 24, 1973 in the UK.\n\nThe Dark Side of the Moon builds upon previous experimentation Pink Floyd had done, especially on their album Meddle. Its themes include old age, conflict and insanity; the latter possibly inspired by the deteriorating mental state of their former band leader Syd Barrett. <a href=\"http://www.last.fm/music/Pink+Floyd/The+Dark+Side+of+the+Moon\">Read more on Last.fm</a>."
+      }
+    }
+  },
+  "scope": "http://ws.audioscrobbler.com:80",
+  "status": 200
+}

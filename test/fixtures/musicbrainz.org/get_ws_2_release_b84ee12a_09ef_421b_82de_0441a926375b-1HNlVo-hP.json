@@ -1,0 +1,39 @@
+{
+  "body": "",
+  "method": "GET",
+  "path": "/ws/2/release/b84ee12a-09ef-421b-82de-0441a926375b",
+  "queries": {
+    "fmt": "json"
+  },
+  "rawHeaders": [
+    "Date",
+    "Sun, 05 Nov 2017 07:19:00 GMT",
+    "Content-Type",
+    "application/json; charset=utf-8",
+    "Transfer-Encoding",
+    "chunked",
+    "Connection",
+    "close",
+    "Vary",
+    "Accept-Encoding",
+    "X-RateLimit-Limit",
+    "1200",
+    "X-RateLimit-Remaining",
+    "863",
+    "X-RateLimit-Reset",
+    "1509866341",
+    "Server",
+    "Plack::Handler::Starlet",
+    "ETag",
+    "W/\"187575e3e301cf9172fb90399a03e9ca\"",
+    "Access-Control-Allow-Origin",
+    "*",
+    "Content-Encoding",
+    "gzip"
+  ],
+  "response": [
+    "1f8b08000000000000036d5141cfd3300cfd2b95cfb594a4599bf508481c0071004e8883dbb8fba2af4b469a0ed0b4ff8ebbc14ebb392ff6f37bcf17f054187ad0fbae41d5a0b15043f0820cce326b43a8f63ca1357a40673ca3b256d3deb44db71ba4979610a18feb3cd7e0c342c7211c562a21090af2bf142aeb22f5e7690a63a059b0cc33d3c2c8678e45febe5f803213f497e71429178c74dc747e8ba1b0af3e8478f0e9f85faba36e6749b7a894e9b021b3c7a1f51d9ac12a26659d66bff52e091bddb6a8714c9eb7cdf0fe0dfca8e139fbb57e12cf55da4b28f3067f7de1ea1de5d7ea4bf05ca5a92a027c4a22bc86319d39238974cae34b38f3666fa0f115fa925796e472f995f2e339a63516e8b5aa61ca692befb8177e8ea2bf9f685e5834fd5c690ee58fec8f291f6f89de86f306899f1a4eb2860ee26203c4c194665fbddd043d2e82b7e02c37ca4a24d8b8d66363d51e69328c9d73bb8e79dc8d13cbc8201624b0fb391ee4770aee8c25eb64b063878d228da4bb512a3ff9d635da282353857f17cc7ccabcc8d1ff5df7023345b9f561a366912beac61c4e621e3e528970bdfe05170b2084a2020000"
+  ],
+  "scope": "http://musicbrainz.org:80",
+  "status": 200
+}
