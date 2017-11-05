@@ -172,3 +172,111 @@ test(
   }
 `
 )
+
+test(
+  'areas that are countries can retrieve top artists and tracks',
+  testQuerySnapshot,
+  `
+  {
+    search {
+      areas(query: "Germany", first: 1) {
+        nodes {
+          name
+          type
+          lastFM {
+            topArtists(first: 5) {
+              nodes {
+                name
+                listenerCount
+                playCount
+              }
+            }
+            topTracks(first: 5) {
+              nodes {
+                title
+                listenerCount
+                playCount
+                artist {
+                  name
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`
+)
+
+test(
+  'countries that are not tracked by Last.fm have empty chart data',
+  testQuerySnapshot,
+  `
+  {
+    search {
+      areas(query: "East Germany", first: 1) {
+        nodes {
+          name
+          type
+          lastFM {
+            topArtists(first: 5) {
+              nodes {
+                name
+                listenerCount
+                playCount
+              }
+            }
+            topTracks(first: 5) {
+              nodes {
+                title
+                listenerCount
+                playCount
+                artist {
+                  name
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`
+)
+
+test(
+  'areas that are not countries have a null lastFM field',
+  testQuerySnapshot,
+  `
+  {
+    search {
+      areas(query: "New York", first: 1) {
+        nodes {
+          name
+          type
+          lastFM {
+            topArtists(first: 5) {
+              nodes {
+                name
+                listenerCount
+                playCount
+              }
+            }
+            topTracks(first: 5) {
+              nodes {
+                title
+                listenerCount
+                playCount
+                artist {
+                  name
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`
+)

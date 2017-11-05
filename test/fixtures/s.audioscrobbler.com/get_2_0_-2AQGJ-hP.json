@@ -1,0 +1,108 @@
+{
+  "body": "",
+  "method": "GET",
+  "path": "/2.0/",
+  "queries": {
+    "api_key": "*",
+    "format": "json",
+    "mbid": "9d70086c-5d7a-4e7f-b1ed-c53c4b11310f",
+    "method": "track.getInfo"
+  },
+  "rawHeaders": [
+    "Server",
+    "openresty/1.9.7.3",
+    "Date",
+    "Sun, 05 Nov 2017 05:22:05 GMT",
+    "Content-Type",
+    "application/json; charset=UTF-8",
+    "Content-Length",
+    "2862",
+    "Connection",
+    "keep-alive",
+    "Access-Control-Request-Headers",
+    "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+    "Access-Control-Allow-Methods",
+    "POST, GET, OPTIONS",
+    "Access-Control-Allow-Origin",
+    "*",
+    "Access-Control-Max-Age",
+    "86400"
+  ],
+  "response": {
+    "track": {
+      "album": {
+        "@attr": {
+          "position": "10"
+        },
+        "artist": "Linkin Park",
+        "image": [
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/34s/5ba3942d36864136b7f5331488c5b4ee.png",
+            "size": "small"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/64s/5ba3942d36864136b7f5331488c5b4ee.png",
+            "size": "medium"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/174s/5ba3942d36864136b7f5331488c5b4ee.png",
+            "size": "large"
+          },
+          {
+            "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/5ba3942d36864136b7f5331488c5b4ee.png",
+            "size": "extralarge"
+          }
+        ],
+        "mbid": "e5c6b50b-2fd7-4cb1-8440-e92c40f81bbb",
+        "title": "Greatest Hits",
+        "url": "https://www.last.fm/music/Linkin+Park/Greatest+Hits"
+      },
+      "artist": {
+        "mbid": "f59c5520-5f46-4d2c-b2c4-822eabf53419",
+        "name": "Linkin Park",
+        "url": "https://www.last.fm/music/Linkin+Park"
+      },
+      "duration": "216000",
+      "listeners": "1326689",
+      "mbid": "9d70086c-5d7a-4e7f-b1ed-c53c4b11310f",
+      "name": "In the End",
+      "playcount": "11371669",
+      "streamable": {
+        "#text": "0",
+        "fulltrack": "0"
+      },
+      "toptags": {
+        "tag": [
+          {
+            "name": "rock",
+            "url": "https://www.last.fm/tag/rock"
+          },
+          {
+            "name": "Nu Metal",
+            "url": "https://www.last.fm/tag/Nu+Metal"
+          },
+          {
+            "name": "Linkin Park",
+            "url": "https://www.last.fm/tag/Linkin+Park"
+          },
+          {
+            "name": "alternative rock",
+            "url": "https://www.last.fm/tag/alternative+rock"
+          },
+          {
+            "name": "alternative",
+            "url": "https://www.last.fm/tag/alternative"
+          }
+        ]
+      },
+      "url": "https://www.last.fm/music/Linkin+Park/_/In+the+End",
+      "wiki": {
+        "content": "\"In the End\" is a rap metal song written by Linkin Park from their debut album Hybrid Theory (2001). Its lyrics to the song is mainly based on one person's failure. It is considered symbolic of an ending relationship. However it can also be symbolic of a long-lasting friendship's trust between one another that has gone away. It was originally a poem but was deemed good enough to be a song, it is also considered Linkin Park's signature song. \"In The End\" is also one of Linkin Park's most popular song which it is always performed in every of their concerts.\n\nThe song was released as the album's fourth and last single in late 2001 and entered the top ten on the majority of the charts it appeared on. <a href=\"http://www.last.fm/music/Linkin+Park/_/In+the+End\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply.",
+        "published": "03 Sep 2008, 16:05",
+        "summary": "\"In the End\" is a rap metal song written by Linkin Park from their debut album Hybrid Theory (2001). Its lyrics to the song is mainly based on one person's failure. It is considered symbolic of an ending relationship. However it can also be symbolic of a long-lasting friendship's trust between one another that has gone away. It was originally a poem but was deemed good enough to be a song, it is also considered Linkin Park's signature song. \"In The <a href=\"http://www.last.fm/music/Linkin+Park/_/In+the+End\">Read more on Last.fm</a>."
+      }
+    }
+  },
+  "scope": "http://ws.audioscrobbler.com:80",
+  "status": 200
+}
