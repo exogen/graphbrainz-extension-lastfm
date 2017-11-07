@@ -1,17 +1,30 @@
 import test from 'ava'
+import sepia from 'sepia'
 import { graphql } from 'graphql'
 import MusicBrainz from 'graphbrainz/lib/api'
 import baseSchema, { createSchema } from 'graphbrainz/lib/schema'
 import { createContext } from 'graphbrainz/lib/context'
 import extension from './index'
 
-const client = new MusicBrainz()
-const options = { client, extensions: [extension] }
+sepia.fixtureDir('test/fixtures')
+
+const rateLimit =
+  process.env.VCR_MODE === 'playback' ? { limit: Infinity, period: 0 } : {}
+const client = new MusicBrainz({ ...rateLimit })
+const options = {
+  client,
+  lastFM: { ...rateLimit },
+  extensions: [extension]
+}
 const schema = createSchema(baseSchema, options)
 const context = createContext(options)
 
-function testQuerySnapshot(t, query) {
-  return graphql(schema, query, null, context).then(
+function runQuery(query, variables) {
+  return graphql(schema, query, null, context, variables)
+}
+
+function testQuerySnapshot(t, query, variables) {
+  return runQuery(query, variables).then(
     result => t.snapshot(result),
     err => t.snapshot(err)
   )
@@ -454,3 +467,35 @@ test(
   }
 `
 )
+
+test('similarArtists pagination', t => {
+  const query = `
+    query SimilarArtists($first: Int, $after: String) {
+      search {
+        artists(query: "Tom Petty", first: 1) {
+          nodes {
+            lastFM {
+              similarArtists(first: $first, after: $after) {
+                pageInfo {
+                  hasNextPage
+                  hasPreviousPage
+                }
+                edges {
+                  matchScore
+                  cursor
+                  node {
+                    name
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  `
+  return runQuery(query, { first: 50 }).then(result => {
+    const artist = result.data.search.artists.nodes[0]
+    console.log(artist)
+  })
+})

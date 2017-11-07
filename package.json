@@ -31,9 +31,8 @@
     "test": "npm run lint && npm run test:coverage",
     "test:coverage": "nyc npm run test:only",
     "test:network": "ava",
-    "test:only": "AVA_PLAYBACK=play ava",
-    "test:update": "AVA_PLAYBACK=record ava --serial --update-snapshots && npm run test:fixtures",
-    "test:fixtures": "babel-node scripts/fix-test-fixtures.js"
+    "test:only": "VCR_MODE=playback ava",
+    "test:update": "VCR_MODE=cache ava --serial --update-snapshots"
   },
   "lint-staged": {
     "*.js": [
@@ -45,8 +44,7 @@
     "babel": "inherit",
     "require": [
       "dotenv/config",
-      "babel-register",
-      "ava-playback"
+      "babel-register"
     ],
     "files": [
       "src/**/*.test.js",
@@ -68,7 +66,6 @@
   },
   "devDependencies": {
     "ava": "^0.23.0",
-    "ava-playback": "^0.0.14",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
@@ -91,6 +88,7 @@
     "nodemon": "^1.12.1",
     "nyc": "^11.3.0",
     "prettier": "^1.7.4",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "sepia": "^2.0.2"
   }
 }
