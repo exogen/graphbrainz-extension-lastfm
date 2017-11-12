@@ -7,6 +7,14 @@ import { createContext } from 'graphbrainz/lib/context'
 import extension from './index'
 
 sepia.fixtureDir('test/fixtures')
+sepia.configure({
+  includeHeaderNames: false,
+  includeCookieNames: false
+})
+sepia.filter({
+  url: /ws.audioscrobbler.com/,
+  urlFilter: url => url.replace(/api_key=\w+/, 'api_key=*')
+})
 
 const rateLimit =
   process.env.VCR_MODE === 'playback' ? { limit: Infinity, period: 0 } : {}
