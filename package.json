@@ -29,10 +29,12 @@
     "start": "babel-node scripts/start.js",
     "start:dev": "nodemon --exec babel-node scripts/start.js",
     "test": "npm run lint && npm run test:coverage",
+    "test:cache": "NOCK_MODE=cache ava --update-snapshots",
     "test:coverage": "nyc npm run test:only",
-    "test:network": "ava",
-    "test:only": "VCR_MODE=playback ava",
-    "test:update": "VCR_MODE=cache ava --serial --update-snapshots"
+    "test:live": "NOCK_MODE=live ava",
+    "test:only": "ava",
+    "test:preview": "NOCK_MODE=preview ava",
+    "test:record": "NOCK_MODE=record ava --update-snapshots"
   },
   "lint-staged": {
     "*.js": [
@@ -52,6 +54,12 @@
     ],
     "playbacks": "test/fixtures"
   },
+  "ava-nock": {
+    "pathFilter": [
+      "([?&]api_key=)([^&]*)",
+      "$1*"
+    ]
+  },
   "peerDependencies": {
     "graphbrainz": "^7.1.0"
   },
@@ -66,12 +74,13 @@
   },
   "devDependencies": {
     "ava": "^0.23.0",
+    "ava-nock": "^0.2.0",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
     "dotenv": "^4.0.0",
-    "eslint": "^4.10.0",
+    "eslint": "^4.11.0",
     "eslint-config-prettier": "^2.7.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-plugin-import": "^2.8.0",
@@ -80,15 +89,14 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
     "glob": "^7.1.2",
-    "graphbrainz": "^7.1.0",
+    "graphbrainz": "^7.1.1",
     "graphql": "^0.11.7",
     "graphql-markdown": "^3.2.0",
     "husky": "^0.14.3",
-    "lint-staged": "^4.3.0",
+    "lint-staged": "^5.0.0",
     "nodemon": "^1.12.1",
     "nyc": "^11.3.0",
-    "prettier": "^1.7.4",
-    "rimraf": "^2.6.2",
-    "sepia": "^2.0.2"
+    "prettier": "^1.8.2",
+    "rimraf": "^2.6.2"
   }
 }

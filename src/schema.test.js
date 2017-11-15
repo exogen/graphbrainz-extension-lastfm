@@ -1,23 +1,15 @@
 import test from 'ava'
-import sepia from 'sepia'
+import { setupTests } from 'ava-nock'
 import { graphql } from 'graphql'
 import MusicBrainz from 'graphbrainz/lib/api'
 import baseSchema, { createSchema } from 'graphbrainz/lib/schema'
 import { createContext } from 'graphbrainz/lib/context'
 import extension from './index'
 
-sepia.fixtureDir('test/fixtures')
-sepia.configure({
-  includeHeaderNames: false,
-  includeCookieNames: false
-})
-sepia.filter({
-  url: /ws.audioscrobbler.com/,
-  urlFilter: url => url.replace(/api_key=\w+/, 'api_key=*')
-})
+setupTests()
 
 const rateLimit =
-  process.env.VCR_MODE === 'playback' ? { limit: Infinity, period: 0 } : {}
+  process.env.NOCK_MODE === 'play' ? { limit: Infinity, period: 0 } : {}
 const client = new MusicBrainz({ ...rateLimit })
 const options = {
   client,
