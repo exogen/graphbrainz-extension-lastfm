@@ -29,12 +29,12 @@
     "start": "babel-node scripts/start.js",
     "start:dev": "nodemon --exec babel-node scripts/start.js",
     "test": "npm run lint && npm run test:coverage",
-    "test:cache": "NOCK_MODE=cache ava --update-snapshots",
+    "test:cache": "NOCK_MODE=cache ava --concurrency 1 --update-snapshots",
     "test:coverage": "nyc npm run test:only",
-    "test:live": "NOCK_MODE=live ava",
+    "test:live": "NOCK_MODE=live ava --concurrency 1",
     "test:only": "ava",
-    "test:preview": "NOCK_MODE=preview ava",
-    "test:record": "NOCK_MODE=record ava --update-snapshots"
+    "test:preview": "NOCK_MODE=preview ava --concurrency 1",
+    "test:record": "NOCK_MODE=record ava --concurrency 1 --update-snapshots"
   },
   "lint-staged": {
     "*.js": [
@@ -51,8 +51,7 @@
     "files": [
       "src/**/*.test.js",
       "test"
-    ],
-    "playbacks": "test/fixtures"
+    ]
   },
   "ava-nock": {
     "pathFilter": [
@@ -74,7 +73,7 @@
   },
   "devDependencies": {
     "ava": "^0.23.0",
-    "ava-nock": "^0.2.0",
+    "ava-nock": "^0.3.0",
     "babel-cli": "^6.26.0",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",

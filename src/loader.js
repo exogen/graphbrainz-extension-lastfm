@@ -1,8 +1,9 @@
 import qs from 'qs'
 import DataLoader from 'dataloader'
 import LRUCache from 'lru-cache'
+import createLogger from 'debug'
 
-const debug = require('debug')('graphbrainz-extension-lastfm/loader')
+const debug = createLogger('graphbrainz-extension-lastfm:loader')
 
 export default function createLoader(options) {
   const { client } = options

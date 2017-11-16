@@ -1,10 +1,11 @@
 import countryList from 'country-list'
 import dateFormat from 'dateformat'
 import {
-  connectionFromArraySlice /* getOffsetWithDefault */
+  connectionFromArray,
+  connectionFromArraySlice,
+  getOffsetWithDefault
 } from 'graphql-relay'
-
-// const debug = require('debug')('graphbrainz-extension-lastfm/resolvers')
+import paginateByPage from './paginateByPage'
 
 const countries = countryList()
 
@@ -86,12 +87,19 @@ function createTopTagsResolver(method) {
   return function resolveTopTags(entity, args, context) {
     // For some reason, `track.getTopTags` and `album.getTopTags` don't support
     // MBID lookups.
-    const params =
+    let params =
       method === 'trackTopTags' || method === 'albumTopTags'
         ? entity.fetchByNameParams()
         : entity.fetchParams()
     if (!params) {
       return null
+    }
+    if (args.first === 0) {
+      return connectionFromArray([], args)
+    }
+    params = {
+      ...params,
+      ...getPaginationParams(args)
     }
     return context.loaders.lastFM
       .load([method, params])
@@ -108,22 +116,32 @@ function createTopTagsResolver(method) {
 function createConnectionResolver(fieldName, args) {
   return function resolveConnection(data) {
     const array = data[fieldName]
-    let meta = { sliceStart: 0, arrayLength: array.length }
-    if (array.length) {
-      const attrs = data['@attr']
-      if (attrs.page) {
-        const page = parseInt(attrs.page, 10)
-        const perPage = parseInt(attrs.perPage, 10)
-        const arrayLength = parseInt(attrs.total, 10)
-        const sliceStart = (page - 1) * perPage
-        meta = { sliceStart, arrayLength }
-      }
+    const attrs = data['@attr']
+    const meta = { sliceStart: 0, arrayLength: array.length }
+    let connection
+    if (attrs.page) {
+      const page = parseInt(attrs.page, 10)
+      const perPage = parseInt(attrs.perPage, 10)
+      meta.sliceStart = (page - 1) * perPage
+      meta.arrayLength = parseInt(attrs.total, 10)
+      connection = connectionFromArraySlice(array, args, meta)
+    } else {
+      connection = connectionFromArray(array, args)
     }
-    const connection = connectionFromArraySlice(array, args, meta)
     connection.nodes = connection.edges.map(edge => edge.node)
     connection.totalCount = meta.arrayLength
     return connection
   }
+}
+
+function getPaginationParams(args) {
+  if (args.first == null || args.first < 0 || args.first > 100) {
+    throw new Error(
+      'The `first` argument must be an integer in the range 0-100.'
+    )
+  }
+  const offset = getOffsetWithDefault(args.after, -1) + 1
+  return paginateByPage({ offset, limit: args.first })
 }
 
 export default {
@@ -136,9 +154,16 @@ export default {
     playCount: resolvePlayCount,
     biography: createWikiResolver('bio'),
     topAlbums: (artist, args, context) => {
-      const params = artist.fetchParams()
+      let params = artist.fetchParams()
       if (!params) {
         return null
+      }
+      if (args.first === 0) {
+        return connectionFromArray([], args)
+      }
+      params = {
+        ...params,
+        ...getPaginationParams(args)
       }
       return context.loaders.lastFM
         .load(['artistTopAlbums', params])
@@ -146,18 +171,31 @@ export default {
     },
     topTags: createTopTagsResolver('artistTopTags'),
     topTracks: (artist, args, context) => {
-      const params = artist.fetchParams()
+      let params = artist.fetchParams()
       if (!params) {
         return null
+      }
+      if (args.first === 0) {
+        return connectionFromArray([], args)
+      }
+      params = {
+        ...params,
+        ...getPaginationParams(args)
       }
       return context.loaders.lastFM
         .load(['artistTopTracks', params])
         .then(createConnectionResolver('track', args))
     },
     similarArtists: (artist, args, context) => {
-      const params = artist.fetchParams()
+      let params = artist.fetchParams()
       if (!params) {
         return null
+      }
+      // The `getSimilar` endpoints don't support pagination and return at most
+      // 250 items. Request 1000 just in case and treat it as the full list.
+      params = {
+        ...params,
+        limit: 1000
       }
       return context.loaders.lastFM
         .load(['similarArtists', params])
@@ -204,9 +242,15 @@ export default {
       return null
     },
     similarTracks: (track, args, context) => {
-      const params = track.fetchParams()
+      let params = track.fetchParams()
       if (!params) {
         return null
+      }
+      // The `getSimilar` endpoints don't support pagination and return at most
+      // 250 items. Request 1000 just in case and treat it as the full list.
+      params = {
+        ...params,
+        limit: 1000
       }
       return context.loaders.lastFM
         .load(['similarTracks', params])
@@ -216,15 +260,27 @@ export default {
   },
   LastFMCountry: {
     topArtists: (country, args, context) => {
+      if (args.first === 0) {
+        return connectionFromArray([], args)
+      }
       const countryName = country.isoName || country.areaName
-      const params = { country: countryName }
+      const params = {
+        country: countryName,
+        ...getPaginationParams(args)
+      }
       return context.loaders.lastFM
         .load(['geoTopArtists', params])
         .then(createConnectionResolver('artist', args))
     },
     topTracks: (country, args, context) => {
+      if (args.first === 0) {
+        return connectionFromArray([], args)
+      }
       const countryName = country.isoName || country.areaName
-      const params = { country: countryName }
+      const params = {
+        country: countryName,
+        ...getPaginationParams(args)
+      }
       return context.loaders.lastFM
         .load(['geoTopTracks', params])
         .then(createConnectionResolver('track', args))
@@ -239,27 +295,39 @@ export default {
   LastFMChartQuery: {
     topArtists: (root, args, context) => {
       let method = 'chartTopArtists'
-      let params = {}
+      if (args.first === 0) {
+        return connectionFromArray([], args)
+      }
+      let params = getPaginationParams(args)
       if (args.country) {
         // Fall back to using the actual argument value as the country name,
         // even though we tell users it should be the two-letter code.
         const countryName = countries.getName(args.country) || args.country
         method = 'geoTopArtists'
-        params.country = countryName
+        params = {
+          ...params,
+          country: countryName
+        }
       }
       return context.loaders.lastFM
         .load([method, params])
         .then(createConnectionResolver('artist', args))
     },
     topTags: (root, args, context) => {
-      const params = {}
+      if (args.first === 0) {
+        return connectionFromArray([], args)
+      }
+      const params = getPaginationParams(args)
       return context.loaders.lastFM
         .load(['chartTopTags', params])
         .then(createConnectionResolver('tag', args))
     },
     topTracks: (root, args, context) => {
       let method = 'chartTopTracks'
-      let params = {}
+      if (args.first === 0) {
+        return connectionFromArray([], args)
+      }
+      const params = getPaginationParams(args)
       if (args.country) {
         // Fall back to using the actual argument value as the country name,
         // even though we tell users it should be the two-letter code.

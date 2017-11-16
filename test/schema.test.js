@@ -1,34 +1,10 @@
 import test from 'ava'
-import { setupTests } from 'ava-nock'
 import { graphql } from 'graphql'
-import MusicBrainz from 'graphbrainz/lib/api'
-import baseSchema, { createSchema } from 'graphbrainz/lib/schema'
+import { setupTests } from 'ava-nock'
 import { createContext } from 'graphbrainz/lib/context'
-import extension from './index'
+import { options, schema, testQuerySnapshot } from './_helpers'
 
 setupTests()
-
-const rateLimit =
-  process.env.NOCK_MODE === 'play' ? { limit: Infinity, period: 0 } : {}
-const client = new MusicBrainz({ ...rateLimit })
-const options = {
-  client,
-  lastFM: { ...rateLimit },
-  extensions: [extension]
-}
-const schema = createSchema(baseSchema, options)
-const context = createContext(options)
-
-function runQuery(query, variables) {
-  return graphql(schema, query, null, context, variables)
-}
-
-function testQuerySnapshot(t, query, variables) {
-  return runQuery(query, variables).then(
-    result => t.snapshot(result),
-    err => t.snapshot(err)
-  )
-}
 
 test('lastFM queries fail if there is no API key configured', t => {
   const context = createContext({ ...options, lastFM: { apiKey: null } })
@@ -467,35 +443,3 @@ test(
   }
 `
 )
-
-test('similarArtists pagination', t => {
-  const query = `
-    query SimilarArtists($first: Int, $after: String) {
-      search {
-        artists(query: "Tom Petty", first: 1) {
-          nodes {
-            lastFM {
-              similarArtists(first: $first, after: $after) {
-                pageInfo {
-                  hasNextPage
-                  hasPreviousPage
-                }
-                edges {
-                  matchScore
-                  cursor
-                  node {
-                    name
-                  }
-                }
-              }
-            }
-          }
-        }
-      }
-    }
-  `
-  return runQuery(query, { first: 50 }).then(result => {
-    const artist = result.data.search.artists.nodes[0]
-    console.log(artist)
-  })
-})

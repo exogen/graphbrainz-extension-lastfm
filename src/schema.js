@@ -75,7 +75,7 @@ type LastFMArtist {
   # A list of similar artists.
   similarArtists(
     # The maximum number of artists to retrieve.
-    first: Int,
+    first: Int = 25,
 
     # The cursor of the edge after which more artists will be retrieved.
     after: String
@@ -84,7 +84,7 @@ type LastFMArtist {
   # A list of the artist’s most popular albums.
   topAlbums(
     # The maximum number of albums to retrieve.
-    first: Int,
+    first: Int = 25,
 
     # The cursor of the edge after which more albums will be retrieved.
     after: String
@@ -93,7 +93,7 @@ type LastFMArtist {
   # A list of tags applied to the artist by users, ordered by popularity.
   topTags(
     # The maximum number of tags to retrieve.
-    first: Int,
+    first: Int = 25,
 
     # The cursor of the edge after which more tags will be retrieved.
     after: String
@@ -102,7 +102,7 @@ type LastFMArtist {
   # A list of the artist’s most popular tracks.
   topTracks(
     # The maximum number of tracks to retrieve.
-    first: Int,
+    first: Int = 25,
 
     # The cursor of the edge after which more tracks will be retrieved.
     after: String
@@ -153,7 +153,7 @@ type LastFMAlbum {
   # A list of tags applied to the artist by users, ordered by popularity.
   topTags(
     # The maximum number of tags to retrieve.
-    first: Int,
+    first: Int = 25,
 
     # The cursor of the edge after which more tags will be retrieved.
     after: String
@@ -199,7 +199,7 @@ type LastFMTrack {
   # A list of similar tracks.
   similarTracks(
     # The maximum number of tracks to retrieve.
-    first: Int,
+    first: Int = 25,
 
     # The cursor of the edge after which more tracks will be retrieved.
     after: String
@@ -208,7 +208,7 @@ type LastFMTrack {
   # A list of tags applied to the track by users, ordered by popularity.
   topTags(
     # The maximum number of tags to retrieve.
-    first: Int,
+    first: Int = 25,
 
     # The cursor of the edge after which more tags will be retrieved.
     after: String
@@ -220,7 +220,7 @@ type LastFMCountry {
   # The top artists in this country, ordered by popularity.
   topArtists(
     # The maximum number of artists to retrieve.
-    first: Int,
+    first: Int = 25,
 
     # The cursor of the edge after which more artists will be retrieved.
     after: String
@@ -229,7 +229,7 @@ type LastFMCountry {
   # The top tracks in this country, ordered by popularity.
   topTracks(
     # The maximum number of tracks to retrieve.
-    first: Int,
+    first: Int = 25,
 
     # The cursor of the edge after which more tracks will be retrieved.
     after: String
@@ -245,7 +245,7 @@ type LastFMChartQuery {
     country: String,
 
     # The maximum number of artists to retrieve.
-    first: Int,
+    first: Int = 25,
 
     # The cursor of the edge after which more artists will be retrieved.
     after: String
@@ -254,7 +254,7 @@ type LastFMChartQuery {
   # The most popular tags, ordered by popularity.
   topTags(
     # The maximum number of tags to retrieve.
-    first: Int,
+    first: Int = 25,
 
     # The cursor of the edge after which more tags will be retrieved.
     after: String
@@ -267,7 +267,7 @@ type LastFMChartQuery {
     country: String,
 
     # The maximum number of tracks to retrieve.
-    first: Int,
+    first: Int = 25,
 
     # The cursor of the edge after which more tracks will be retrieved.
     after: String
