@@ -1,5 +1,10 @@
 # GraphBrainz Extension: Last.fm
 
+[![build status](https://img.shields.io/travis/exogen/graphbrainz-extension-lastfm/master.svg)](https://travis-ci.org/exogen/graphbrainz-extension-lastfm)
+[![coverage](https://img.shields.io/codecov/c/github/exogen/graphbrainz-extension-lastfm.svg)](https://codecov.io/gh/exogen/graphbrainz-extension-lastfm)
+[![npm version](https://img.shields.io/npm/v/graphbrainz-extension-lastfm.svg)](https://www.npmjs.com/package/graphbrainz-extension-lastfm)
+[![license](https://img.shields.io/npm/l/graphbrainz-extension-lastfm.svg)](https://github.com/exogen/graphbrainz-extension-lastfm/blob/master/LICENSE)
+
 Retrieve artist, release, and recording information from [Last.fm](https://www.last.fm/).
 
 To use this extension, install [GraphBrainz](https://github.com/exogen/graphbrainz),
