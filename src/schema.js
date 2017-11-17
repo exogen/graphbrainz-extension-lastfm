@@ -260,8 +260,8 @@ type LastFMChartQuery {
     after: String
   ): LastFMTagConnection
 
-  # The most popular artists, ordered by popularity. If a country code is given,
-  # retrieve the most popular artists in that country.
+  # The most popular tracks, ordered by popularity. If a country code is given,
+  # retrieve the most popular tracks in that country.
   topTracks(
     # A two-letter [ISO 3166 country code](https://en.wikipedia.org/wiki/ISO_3166).
     country: String,

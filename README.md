@@ -778,8 +778,8 @@ The cursor of the edge after which more tags will be retrieved.
 <td valign="top"><a href="#lastfmtrackconnection">LastFMTrackConnection</a></td>
 <td>
 
-The most popular artists, ordered by popularity. If a country code is given,
-retrieve the most popular artists in that country.
+The most popular tracks, ordered by popularity. If a country code is given,
+retrieve the most popular tracks in that country.
 
 </td>
 </tr>
