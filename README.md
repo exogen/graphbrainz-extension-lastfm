@@ -12,7 +12,7 @@ then:
 
 ```console
 $ npm install graphbrainz-extension-lastfm
-$ GRAPHBRAINZ_EXTENSIONS="graphbrainz-extension-lastfm" graphbrainz
+$ GRAPHBRAINZ_EXTENSIONS='["graphbrainz-extension-lastfm"]' graphbrainz
 ```
 
 Or, if you are using the middleware directly:
