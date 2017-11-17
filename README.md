@@ -41,6 +41,37 @@ This extension can be configured using environment variables:
 * **`LASTFM_CACHE_TTL`**: The number of seconds to keep items in the cache.
   Defaults to `GRAPHBRAINZ_CACHE_TTL` if defined, or `86400000` (one day).
 
+## Example Queries
+
+Find the MBIDs of similar recordings:
+
+```graphql
+{
+  search {
+    recordings(query: "Dream Baby Dream artist:Suicide", first: 1) {
+      nodes {
+        mbid
+        title
+        lastFM {
+          similarTracks(first: 5) {
+            edges {
+              matchScore
+              node {
+                mbid
+                title
+                artist {
+                  name
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
 <!-- START graphql-markdown -->
 
 ## Schema Types
