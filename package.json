@@ -29,12 +29,12 @@
     "start": "babel-node scripts/start.js",
     "start:dev": "nodemon --exec babel-node scripts/start.js",
     "test": "npm run lint && npm run test:coverage",
-    "test:cache": "NOCK_MODE=cache ava --concurrency 1 --update-snapshots",
-    "test:coverage": "nyc npm run test:only",
-    "test:live": "NOCK_MODE=live ava --concurrency 1",
+    "test:cache": "cross-env NOCK_MODE=cache ava --concurrency 1 --update-snapshots",
+    "test:coverage": "cross-env NODE_ENV=test nyc npm run test:only",
+    "test:live": "cross-env NOCK_MODE=live ava --concurrency 1",
     "test:only": "ava",
-    "test:preview": "NOCK_MODE=preview ava --concurrency 1",
-    "test:record": "NOCK_MODE=record ava --concurrency 1 --update-snapshots"
+    "test:preview": "cross-env NOCK_MODE=preview ava --concurrency 1",
+    "test:record": "cross-env NOCK_MODE=record ava --concurrency 1 --update-snapshots"
   },
   "lint-staged": {
     "*.js": [
@@ -59,6 +59,19 @@
       "$1*"
     ]
   },
+  "nyc": {
+    "include": [
+      "src/**"
+    ],
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "all": true,
+    "cache": true,
+    "sourceMap": false,
+    "instrument": false
+  },
   "peerDependencies": {
     "graphbrainz": "^7.1.0"
   },
@@ -75,9 +88,12 @@
     "ava": "^0.23.0",
     "ava-nock": "^0.3.0",
     "babel-cli": "^6.26.0",
+    "babel-plugin-istanbul": "^4.1.5",
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.6.1",
     "babel-register": "^6.26.0",
+    "coveralls": "^3.0.0",
+    "cross-env": "^5.1.1",
     "dotenv": "^4.0.0",
     "eslint": "^4.11.0",
     "eslint-config-prettier": "^2.7.0",

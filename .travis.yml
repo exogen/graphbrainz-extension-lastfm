@@ -1,0 +1,25 @@
+language: node_js
+
+node_js:
+- '6'
+- '7'
+- '8'
+
+# Use container-based Travis infrastructure.
+sudo: false
+
+branches:
+  only:
+  - master
+  - "/^greenkeeper/.*$/"
+
+env:
+  global:
+  - secure: ZlTJ6OCVpFbed4oLGSReFnqc73ejgScNxF/TfzyX1EOh1u4Ee9oWCiqXG3ScS6k+2M6bAkH3/dd/QTjo07de9fzuooLkS9QPuz7FJ8k1mzUW+bTJQz2hFb9sLbXi4vVg8sVIOW0S6lIsndjy9KEk5UZ01PKrAYup4qlBbSdQd+gMw2pxL/ks94GmR455dpdlpMdH5WNTljPkVUk8Wn9h2BdmEyJdpEyeOJbQ+xzOoOCk2Ug9Dou9Z5efpMeaLYZve0Sku2DpePSnxfpcSL15w/SkiQ7CLoDHOpYVOKySDKfPzOI69/yCwMzyYEz1u0aAH85fS6Sxu4BWEacpQdg66Xp27w6Z0Cfztog/I3gpwY30CidQuupajAXIctovFNhPBprLqpwHA5faD2DyCbFRrx2tmyUggJaZViWlbJDXHrxyMIhPDopSzcPoTrOwyrbHLm5rlN/xrkFdD6zsLkAXNgyoZ51HYGFrEY8yuVPuqJ+ndBGMqMaWzKMbOnwraStEsG+vTlExUNBWOQc4JBisIdX/FlV+nZeHGfr+kMg0qxsmKSOXkzmaiiOG08UEqTfsRuOgebkPf/kr6bqPjnfRnUSCSGhj053NFz+V39Y/GFCCpq6ZXxE526RATwpMwm1l8rPeuN3VTj35yDRMxqUzJFDDVQ7e6XIn3vQ0oVBn0pw=
+
+script:
+- yarn test
+
+after_success:
+- $(yarn bin)/nyc report --reporter=text-lcov | $(yarn bin)/coveralls
+- bash <(curl -s https://codecov.io/bash)
