@@ -2258,9 +2258,9 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2, graceful-fs@^4.1.4, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-graphbrainz@^7.1.1:
-  version "7.1.1"
-  resolved "https://registry.yarnpkg.com/graphbrainz/-/graphbrainz-7.1.1.tgz#f13204641829e5ed265f1c397f4a70b07e3fe80f"
+graphbrainz@^7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/graphbrainz/-/graphbrainz-7.2.0.tgz#3762f93a4469280f662c314a46818b35ce9bd1ce"
   dependencies:
     babel-runtime "^6.25.0"
     compression "^1.7.0"
@@ -2274,7 +2274,7 @@ graphbrainz@^7.1.1:
     express-graphql "^0.6.7"
     graphql "^0.11.7"
     graphql-relay "^0.5.2"
-    graphql-tools "^2.7.0"
+    graphql-tools "^2.7.2"
     lru-cache "^4.1.1"
     pascalcase "^0.1.1"
     postinstall-build "^5.0.1"
@@ -2296,9 +2296,9 @@ graphql-relay@^0.5.2, graphql-relay@^0.5.3:
   version "0.5.3"
   resolved "https://registry.yarnpkg.com/graphql-relay/-/graphql-relay-0.5.3.tgz#56a78ac07c87d89795a34db6b8e9681b827be5b5"
 
-graphql-tools@^2.7.0:
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.7.2.tgz#03104a155b15f8441b0e5a7113b12b9512341a9e"
+graphql-tools@^2.7.2:
+  version "2.8.0"
+  resolved "https://registry.yarnpkg.com/graphql-tools/-/graphql-tools-2.8.0.tgz#1a248ec6be62b0b77607bba6f7470e7a651425fa"
   dependencies:
     apollo-utilities "^1.0.1"
     deprecated-decorator "^0.1.6"
