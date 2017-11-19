@@ -104,14 +104,14 @@
     "eslint-plugin-promise": "^3.6.0",
     "eslint-plugin-standard": "^3.0.1",
     "glob": "^7.1.2",
-    "graphbrainz": "^7.2.0",
+    "graphbrainz": "^7.3.0",
     "graphql": "^0.11.7",
     "graphql-markdown": "^3.2.0",
     "husky": "^0.14.3",
     "lint-staged": "^5.0.0",
     "nodemon": "^1.12.1",
     "nyc": "^11.3.0",
-    "prettier": "^1.8.2",
+    "prettier": "prettier/prettier#4b070c3",
     "rimraf": "^2.6.2"
   }
 }

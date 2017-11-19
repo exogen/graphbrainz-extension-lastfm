@@ -268,8 +268,8 @@ The two-letter code for the language in which to retrieve the description.
 <td valign="top"><a href="#lastfmartist">LastFMArtist</a></td>
 <td>
 
-The artist who released the album. This returns the Last.fm artist info, not
-the MusicBrainz artist.
+The artist who released the album. This returns the Last.fm artist info,
+not the MusicBrainz artist.
 
 </td>
 </tr>
@@ -714,8 +714,8 @@ A query for chart data on [Last.fm](https://www.last.fm/).
 <td valign="top"><a href="#lastfmartistconnection">LastFMArtistConnection</a></td>
 <td>
 
-The most popular artists, ordered by popularity. If a country code is given,
-retrieve the most popular artists in that country.
+The most popular artists, ordered by popularity. If a country code is
+given, retrieve the most popular artists in that country.
 
 </td>
 </tr>
@@ -778,8 +778,8 @@ The cursor of the edge after which more tags will be retrieved.
 <td valign="top"><a href="#lastfmtrackconnection">LastFMTrackConnection</a></td>
 <td>
 
-The most popular tracks, ordered by popularity. If a country code is given,
-retrieve the most popular tracks in that country.
+The most popular tracks, ordered by popularity. If a country code is
+given, retrieve the most popular tracks in that country.
 
 </td>
 </tr>
@@ -1136,8 +1136,8 @@ The two-letter code for the language in which to retrieve the description.
 <td valign="top"><a href="#lastfmartist">LastFMArtist</a></td>
 <td>
 
-The artist who released the track. This returns the Last.fm artist info, not
-the MusicBrainz artist.
+The artist who released the track. This returns the Last.fm artist info,
+not the MusicBrainz artist.
 
 </td>
 </tr>
@@ -1344,8 +1344,8 @@ The full wiki content, which may contain HTML.
 <td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#date">Date</a></td>
 <td>
 
-The date the content was published. The data is reformatted from the Last.fm
-API’s original format into the Date scalar format.
+The date the content was published. The data is reformatted from the
+Last.fm API’s original format into the Date scalar format.
 
 </td>
 </tr>
@@ -1354,9 +1354,9 @@ API’s original format into the Date scalar format.
 <td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#time">Time</a></td>
 <td>
 
-The time the content was published. The data is reformatted from the Last.fm
-API’s original format into the Time scalar format. The API offers no
-indication as to which time zone the time is in.
+The time the content was published. The data is reformatted from the
+Last.fm API’s original format into the Time scalar format. The API offers
+no indication as to which time zone the time is in.
 
 </td>
 </tr>
@@ -1393,8 +1393,8 @@ See the [base schema](https://github.com/exogen/graphbrainz/docs/types.md) for a
 <td>
 
 A query for data on [Last.fm](https://www.last.fm/) that is not connected
-to any particular MusicBrainz entity. This field is provided by the Last.fm
-extension.
+to any particular MusicBrainz entity. This field is provided by the
+Last.fm extension.
 
 </td>
 </tr>
@@ -1421,9 +1421,9 @@ See the [base schema](https://github.com/exogen/graphbrainz/docs/types.md) for a
 <td valign="top"><a href="#lastfmtrack">LastFMTrack</a></td>
 <td>
 
-Data about the recording from [Last.fm](https://www.last.fm/), a good source
-for measuring popularity via listener and play counts. This field is
-provided by the Last.fm extension.
+Data about the recording from [Last.fm](https://www.last.fm/), a good
+source for measuring popularity via listener and play counts. This field
+is provided by the Last.fm extension.
 
 </td>
 </tr>
