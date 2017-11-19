@@ -14,20 +14,22 @@
   "license": "MIT",
   "main": "lib/index.js",
   "files": [
-    "lib"
+    "lib",
+    "yarn.lock"
   ],
   "scripts": {
     "build": "npm run build:lib && npm run build:docs",
     "build:docs": "babel-node scripts/build-docs.js",
     "build:lib": "babel --out-dir lib src",
     "clean": "rimraf lib",
+    "deploy": "./scripts/deploy.sh",
     "format": "npm run lint:fix",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "precommit": "lint-staged",
     "prepare": "npm run clean && npm run build",
-    "start": "babel-node scripts/start.js",
-    "start:dev": "nodemon --exec babel-node scripts/start.js",
+    "start": "node scripts/start.js",
+    "start:dev": "nodemon --exec babel-node scripts/start-dev.js",
     "test": "npm run lint && npm run test:coverage",
     "test:cache": "cross-env NOCK_MODE=cache ava --concurrency 1 --update-snapshots",
     "test:coverage": "cross-env NODE_ENV=test nyc npm run test:only",

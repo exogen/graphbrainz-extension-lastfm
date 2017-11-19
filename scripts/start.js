@@ -1,4 +1,4 @@
-import { start } from 'graphbrainz'
-import extension from '../src'
+const { start } = require('graphbrainz')
+const extension = require('../lib')
 
 start({ extensions: [extension] })
