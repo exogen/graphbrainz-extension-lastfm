@@ -5,10 +5,12 @@
 [![npm version](https://img.shields.io/npm/v/graphbrainz-extension-lastfm.svg)](https://www.npmjs.com/package/graphbrainz-extension-lastfm)
 [![license](https://img.shields.io/npm/l/graphbrainz-extension-lastfm.svg)](https://github.com/exogen/graphbrainz-extension-lastfm/blob/master/LICENSE)
 
-Retrieve artist, release, and recording information from [Last.fm](https://www.last.fm/).
+Retrieve artist, release, and recording information from [Last.fm][].
 
-To use this extension, install [GraphBrainz](https://github.com/exogen/graphbrainz),
-then:
+**[Try out the live demo!][demo]** :bulb: Use the “Docs” sidebar or the
+documentation below to help construct your query.
+
+To use this extension, install [GraphBrainz][] then:
 
 ```console
 $ npm install graphbrainz-extension-lastfm
@@ -43,7 +45,7 @@ This extension can be configured using environment variables:
 
 ## Example Queries
 
-Find the MBIDs of similar recordings:
+Find the MBIDs of similar recordings ([try it](https://graphbrainz-extension-lastfm.herokuapp.com/?query=%7B%0A%20%20search%20%7B%0A%20%20%20%20recordings(query%3A%20%22Dream%20Baby%20Dream%20artist%3ASuicide%22%2C%20first%3A%201)%20%7B%0A%20%20%20%20%20%20nodes%20%7B%0A%20%20%20%20%20%20%20%20mbid%0A%20%20%20%20%20%20%20%20title%0A%20%20%20%20%20%20%20%20lastFM%20%7B%0A%20%20%20%20%20%20%20%20%20%20similarTracks(first%3A%205)%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20edges%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20matchScore%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20node%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20mbid%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20title%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20artist%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20name%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%7D%0A%20%20%20%20%7D%0A%20%20%7D%0A%7D%0A)):
 
 ```graphql
 {
@@ -1515,3 +1517,7 @@ A maximum dimension of 300px.
 </table>
 
 <!-- END graphql-markdown -->
+
+[Last.fm]: https://www.last.fm/
+[GraphBrainz]: https://github.com/exogen/graphbrainz
+[demo]: https://graphbrainz-extension-lastfm.herokuapp.com/
