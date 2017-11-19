@@ -19,6 +19,9 @@ export default function createLoader(options) {
   cache.clear = cache.reset
 
   const createArtist = (artist, method) => {
+    if (artist == null) {
+      return null
+    }
     if (typeof artist === 'string') {
       artist = {
         name: artist,
@@ -48,6 +51,9 @@ export default function createLoader(options) {
   }
 
   const createAlbum = (album, method, trackArtist) => {
+    if (album == null) {
+      return null
+    }
     let artist = album.artist || null
     if (trackArtist && artist === trackArtist.name) {
       artist = trackArtist
@@ -86,6 +92,9 @@ export default function createLoader(options) {
   }
 
   const createTrack = (track, method) => {
+    if (track == null) {
+      return null
+    }
     const artist = track.artist ? createArtist(track.artist, method) : null
     return {
       ...track,
@@ -143,16 +152,16 @@ export default function createLoader(options) {
                 album: data.album.map(album => createAlbum(album, method))
               }))
             case 'artistInfo':
-              return client[method](params).then(
-                artist => artist && createArtist(artist, method)
+              return client[method](params).then(artist =>
+                createArtist(artist, method)
               )
             case 'albumInfo':
-              return client[method](params).then(
-                album => album && createAlbum(album, method)
+              return client[method](params).then(album =>
+                createAlbum(album, method)
               )
             case 'trackInfo':
-              return client[method](params).then(
-                track => track && createTrack(track, method)
+              return client[method](params).then(track =>
+                createTrack(track, method)
               )
             case 'artistTopTags':
             case 'albumTopTags':
