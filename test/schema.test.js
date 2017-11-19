@@ -443,3 +443,57 @@ test(
   }
 `
 )
+
+test(
+  'lastFM field is null if the artist MBID is not on Last.fm',
+  testQuerySnapshot,
+  `
+  {
+    search {
+      artists(query: "Cohen", first: 3) {
+        nodes {
+          lastFM {
+            mbid
+          }
+        }
+      }
+    }
+  }
+  `
+)
+
+test(
+  'lastFM field is null if the recording MBID is not on Last.fm',
+  testQuerySnapshot,
+  `
+  {
+    search {
+      recordings(query: "Honey Lips", first: 3) {
+        nodes {
+          lastFM {
+            mbid
+          }
+        }
+      }
+    }
+  }
+  `
+)
+
+test(
+  'lastFM field is null if the release MBID is not on Last.fm',
+  testQuerySnapshot,
+  `
+  {
+    search {
+      releases(query: "Vacant", first: 3) {
+        nodes {
+          lastFM {
+            mbid
+          }
+        }
+      }
+    }
+  }
+  `
+)

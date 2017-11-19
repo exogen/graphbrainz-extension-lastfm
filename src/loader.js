@@ -143,16 +143,16 @@ export default function createLoader(options) {
                 album: data.album.map(album => createAlbum(album, method))
               }))
             case 'artistInfo':
-              return client[method](params).then(artist =>
-                createArtist(artist, method)
+              return client[method](params).then(
+                artist => artist && createArtist(artist, method)
               )
             case 'albumInfo':
-              return client[method](params).then(album =>
-                createAlbum(album, method)
+              return client[method](params).then(
+                album => album && createAlbum(album, method)
               )
             case 'trackInfo':
-              return client[method](params).then(track =>
-                createTrack(track, method)
+              return client[method](params).then(
+                track => track && createTrack(track, method)
               )
             case 'artistTopTags':
             case 'albumTopTags':

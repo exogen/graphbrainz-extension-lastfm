@@ -63,9 +63,14 @@ export default class LastFMClient extends Client {
   }
 
   artistInfo(params) {
-    return this.get('artist.getInfo', { qs: params }).then(
-      data => data.artist || null
-    )
+    return this.get('artist.getInfo', { qs: params })
+      .catch(err => {
+        if (err instanceof this.errorClass && err.code === 6) {
+          return { artist: null }
+        }
+        throw err
+      })
+      .then(data => data.artist || null)
   }
 
   similarArtists(params) {
@@ -93,9 +98,14 @@ export default class LastFMClient extends Client {
   }
 
   albumInfo(params) {
-    return this.get('album.getInfo', { qs: params }).then(
-      data => data.album || null
-    )
+    return this.get('album.getInfo', { qs: params })
+      .catch(err => {
+        if (err instanceof this.errorClass && err.code === 6) {
+          return { album: null }
+        }
+        throw err
+      })
+      .then(data => data.album || null)
   }
 
   albumTopTags(params) {
@@ -105,9 +115,14 @@ export default class LastFMClient extends Client {
   }
 
   trackInfo(params) {
-    return this.get('track.getInfo', { qs: params }).then(
-      data => data.track || null
-    )
+    return this.get('track.getInfo', { qs: params })
+      .catch(err => {
+        if (err instanceof this.errorClass && err.code === 6) {
+          return { track: null }
+        }
+        throw err
+      })
+      .then(data => data.track || null)
   }
 
   trackTopTags(params) {

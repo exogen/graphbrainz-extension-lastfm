@@ -62248,6 +62248,606 @@
     ]
   ],
   [
+    "lastFM field is null if the artist MBID is not on Last.fm",
+    [
+      {
+        "body": "",
+        "method": "GET",
+        "path": "/ws/2/artist?limit=3&query=Cohen&fmt=json",
+        "rawHeaders": [
+          "Date",
+          "Sun, 19 Nov 2017 03:53:31 GMT",
+          "Content-Type",
+          "application/json; charset=UTF-8",
+          "Transfer-Encoding",
+          "chunked",
+          "Connection",
+          "close",
+          "Vary",
+          "Accept-Encoding",
+          "X-RateLimit-Limit",
+          "1200",
+          "X-RateLimit-Remaining",
+          "848",
+          "X-RateLimit-Reset",
+          "1511063611",
+          "Last-Modified",
+          "Sun, 19 Nov 2017 02:59:41 GMT",
+          "Server",
+          "Jetty(9.3.10.v20160621)",
+          "Access-Control-Allow-Origin",
+          "*"
+        ],
+        "reqheaders": {
+          "accept": "application/json",
+          "accept-encoding": "gzip, deflate",
+          "host": "musicbrainz.org"
+        },
+        "response": "{\"created\":\"2017-11-19T02:59:41.611Z\",\"count\":376,\"offset\":0,\"artists\":[{\"id\":\"864938e4-1c82-4307-a259-79063ecf3296\",\"type\":\"Person\",\"score\":\"100\",\"name\":\"Cohen\",\"sort-name\":\"Cohen\",\"gender\":\"male\",\"country\":\"IL\",\"area\":{\"id\":\"03691455-bb46-37e3-91d2-cb064a35ffcc\",\"name\":\"Israel\",\"sort-name\":\"Israel\"},\"life-span\":{\"ended\":null},\"aliases\":[{\"sort-name\":\"Cohenbeats\",\"name\":\"Cohenbeats\",\"locale\":\"en\",\"type\":\"Artist name\",\"primary\":null,\"begin-date\":null,\"end-date\":null}]},{\"id\":\"23c75c92-dd88-45e8-ad2e-b33b22fe36fa\",\"type\":\"Person\",\"score\":\"97\",\"name\":\"Virginia Cohen\",\"sort-name\":\"Cohen, Virginia\",\"gender\":\"female\",\"country\":\"US\",\"area\":{\"id\":\"489ce91b-6658-3307-9877-795b68554c98\",\"name\":\"United States\",\"sort-name\":\"United States\"},\"life-span\":{\"ended\":null}},{\"id\":\"ff035dff-719e-41fd-8b4e-9a4c70659370\",\"type\":\"Person\",\"score\":\"97\",\"name\":\"Porky Cohen\",\"sort-name\":\"Cohen, Porky\",\"gender\":\"male\",\"country\":\"US\",\"area\":{\"id\":\"489ce91b-6658-3307-9877-795b68554c98\",\"name\":\"United States\",\"sort-name\":\"United States\"},\"begin-area\":{\"id\":\"712d64d0-5978-4b60-9126-0a47f7b2e563\",\"name\":\"Springfield\",\"sort-name\":\"Springfield\"},\"end-area\":{\"id\":\"1b4c4320-f55b-47ca-84c6-6e95dc5493b4\",\"name\":\"Providence\",\"sort-name\":\"Providence\"},\"life-span\":{\"begin\":\"1924-06-02\",\"end\":\"2004-04-14\",\"ended\":true}}]}",
+        "scope": "http://musicbrainz.org:80",
+        "status": 200
+      },
+      {
+        "body": "",
+        "method": "GET",
+        "path": "/2.0/?method=artist.getInfo&format=json&api_key=*&mbid=864938e4-1c82-4307-a259-79063ecf3296",
+        "rawHeaders": [
+          "Server",
+          "openresty/1.9.7.3",
+          "Date",
+          "Sun, 19 Nov 2017 03:53:32 GMT",
+          "Content-Type",
+          "application/json; charset=UTF-8",
+          "Content-Length",
+          "77",
+          "Connection",
+          "keep-alive",
+          "Access-Control-Request-Headers",
+          "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+          "Access-Control-Allow-Methods",
+          "POST, GET, OPTIONS",
+          "Access-Control-Allow-Origin",
+          "*",
+          "Access-Control-Max-Age",
+          "86400"
+        ],
+        "reqheaders": {
+          "accept": "application/json",
+          "accept-encoding": "gzip, deflate",
+          "host": "ws.audioscrobbler.com"
+        },
+        "response": {
+          "error": 6,
+          "links": [
+          ],
+          "message": "The artist you supplied could not be found"
+        },
+        "scope": "http://ws.audioscrobbler.com:80",
+        "status": 200
+      },
+      {
+        "body": "",
+        "method": "GET",
+        "path": "/2.0/?method=artist.getInfo&format=json&api_key=*&mbid=23c75c92-dd88-45e8-ad2e-b33b22fe36fa",
+        "rawHeaders": [
+          "Server",
+          "openresty/1.9.7.3",
+          "Date",
+          "Sun, 19 Nov 2017 03:53:32 GMT",
+          "Content-Type",
+          "application/json; charset=UTF-8",
+          "Content-Length",
+          "77",
+          "Connection",
+          "keep-alive",
+          "Access-Control-Request-Headers",
+          "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+          "Access-Control-Allow-Methods",
+          "POST, GET, OPTIONS",
+          "Access-Control-Allow-Origin",
+          "*",
+          "Access-Control-Max-Age",
+          "86400"
+        ],
+        "reqheaders": {
+          "accept": "application/json",
+          "accept-encoding": "gzip, deflate",
+          "host": "ws.audioscrobbler.com"
+        },
+        "response": {
+          "error": 6,
+          "links": [
+          ],
+          "message": "The artist you supplied could not be found"
+        },
+        "scope": "http://ws.audioscrobbler.com:80",
+        "status": 200
+      },
+      {
+        "body": "",
+        "method": "GET",
+        "path": "/2.0/?method=artist.getInfo&format=json&api_key=*&mbid=ff035dff-719e-41fd-8b4e-9a4c70659370",
+        "rawHeaders": [
+          "Server",
+          "openresty/1.9.7.3",
+          "Date",
+          "Sun, 19 Nov 2017 03:53:32 GMT",
+          "Content-Type",
+          "application/json; charset=UTF-8",
+          "Content-Length",
+          "77",
+          "Connection",
+          "keep-alive",
+          "Access-Control-Request-Headers",
+          "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+          "Access-Control-Allow-Methods",
+          "POST, GET, OPTIONS",
+          "Access-Control-Allow-Origin",
+          "*",
+          "Access-Control-Max-Age",
+          "86400"
+        ],
+        "reqheaders": {
+          "accept": "application/json",
+          "accept-encoding": "gzip, deflate",
+          "host": "ws.audioscrobbler.com"
+        },
+        "response": {
+          "error": 6,
+          "links": [
+          ],
+          "message": "The artist you supplied could not be found"
+        },
+        "scope": "http://ws.audioscrobbler.com:80",
+        "status": 200
+      }
+    ]
+  ],
+  [
+    "lastFM field is null if the recording MBID is not on Last.fm",
+    [
+      {
+        "body": "",
+        "method": "GET",
+        "path": "/ws/2/recording?limit=3&query=Honey%20Lips&fmt=json",
+        "rawHeaders": [
+          "Date",
+          "Sun, 19 Nov 2017 04:05:20 GMT",
+          "Content-Type",
+          "application/json; charset=UTF-8",
+          "Transfer-Encoding",
+          "chunked",
+          "Connection",
+          "close",
+          "Vary",
+          "Accept-Encoding",
+          "X-RateLimit-Limit",
+          "1200",
+          "X-RateLimit-Remaining",
+          "1161",
+          "X-RateLimit-Reset",
+          "1511064321",
+          "Last-Modified",
+          "Sat, 18 Nov 2017 08:30:09 GMT",
+          "Server",
+          "Jetty(9.3.10.v20160621)",
+          "Access-Control-Allow-Origin",
+          "*"
+        ],
+        "reqheaders": {
+          "accept": "application/json",
+          "accept-encoding": "gzip, deflate",
+          "host": "musicbrainz.org"
+        },
+        "response": "{\"created\":\"2017-11-18T08:30:09.743Z\",\"count\":12976,\"offset\":0,\"recordings\":[{\"id\":\"3c9a019a-9627-4118-984b-c6fa6cd5cdcb\",\"score\":\"100\",\"title\":\"Honey Lips\",\"length\":172000,\"video\":null,\"artist-credit\":[{\"artist\":{\"id\":\"b581993f-42db-487b-bd8f-36ede819559b\",\"name\":\"Bob Chance\",\"sort-name\":\"Chance, Bob\",\"disambiguation\":\"singer, songwriter and producer from New York\"}}],\"releases\":[{\"id\":\"8245a827-9372-419e-a004-ede275731ccd\",\"title\":\"It's Broken!\",\"status\":\"Official\",\"release-group\":{\"id\":\"ff5f6bf0-43d3-44e9-b007-6418938bfca9\",\"primary-type\":\"Album\"},\"date\":\"1980\",\"country\":\"US\",\"release-events\":[{\"date\":\"1980\",\"area\":{\"id\":\"489ce91b-6658-3307-9877-795b68554c98\",\"name\":\"United States\",\"sort-name\":\"United States\",\"iso-3166-1-codes\":[\"US\"]}}],\"track-count\":7,\"media\":[{\"position\":1,\"format\":\"12\\\" Vinyl\",\"track\":[{\"id\":\"ff9ebf7e-8d73-4f77-968e-22691df5d327\",\"number\":\"A2\",\"title\":\"Honey Lips\",\"length\":172000}],\"track-count\":7,\"track-offset\":1}]}]},{\"id\":\"42aac847-6bc7-425b-80b8-6dd5df266534\",\"score\":\"100\",\"title\":\"Honey Lips\",\"length\":178000,\"video\":null,\"artist-credit\":[{\"artist\":{\"id\":\"3ab3f4d5-0282-460d-85b6-cf68a471af09\",\"name\":\"Part Time\",\"sort-name\":\"Part Time\"}}],\"releases\":[{\"id\":\"e2ebf5ea-7575-4aa7-a924-a3b272fd013d\",\"title\":\"Virgo's maze\",\"status\":\"Official\",\"release-group\":{\"id\":\"8daa130c-36f1-43b3-a7ce-e70a253b1996\",\"primary-type\":\"Album\"},\"date\":\"2015-06-16\",\"release-events\":[{\"date\":\"2015-06-16\"}],\"track-count\":20,\"media\":[{\"position\":1,\"format\":\"Digital Media\",\"track\":[{\"id\":\"c6071460-a7b6-480a-8467-26929db6bfab\",\"number\":\"3\",\"title\":\"Honey Lips\",\"length\":178000}],\"track-count\":20,\"track-offset\":2}]}]},{\"id\":\"46ca4397-0592-4ebc-8eda-95a68bc0b6b9\",\"score\":\"100\",\"title\":\"Honey Lips\",\"length\":225000,\"video\":null,\"artist-credit\":[{\"artist\":{\"id\":\"2aa122cc-8cdd-432e-be27-b29631b961e4\",\"name\":\"Tempera\",\"sort-name\":\"Tempera\"}}],\"releases\":[{\"id\":\"d8088994-30c5-4c03-8a91-71103986e690\",\"title\":\"Igraj!\",\"status\":\"Official\",\"release-group\":{\"id\":\"6fc3bd55-0e1b-4cdf-8ecd-2270b90abce4\",\"primary-type\":\"Album\"},\"date\":\"2015-04-28\",\"country\":\"DE\",\"release-events\":[{\"date\":\"2015-04-28\",\"area\":{\"id\":\"85752fda-13c4-31a3-bee5-0e5cb1f51dad\",\"name\":\"Germany\",\"sort-name\":\"Germany\",\"iso-3166-1-codes\":[\"DE\"]}}],\"track-count\":10,\"media\":[{\"position\":1,\"format\":\"Digital Media\",\"track\":[{\"id\":\"2aee7c41-f24d-495e-89c5-b17034f83b9d\",\"number\":\"10\",\"title\":\"Honey Lips\",\"length\":225000}],\"track-count\":10,\"track-offset\":9}]}]}]}",
+        "scope": "http://musicbrainz.org:80",
+        "status": 200
+      },
+      {
+        "body": "",
+        "method": "GET",
+        "path": "/2.0/?method=track.getInfo&format=json&api_key=*&mbid=46ca4397-0592-4ebc-8eda-95a68bc0b6b9",
+        "rawHeaders": [
+          "Server",
+          "openresty/1.9.7.3",
+          "Date",
+          "Sun, 19 Nov 2017 04:05:20 GMT",
+          "Content-Type",
+          "application/json; charset=UTF-8",
+          "Content-Length",
+          "50",
+          "Connection",
+          "keep-alive",
+          "Access-Control-Request-Headers",
+          "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+          "Access-Control-Allow-Methods",
+          "POST, GET, OPTIONS",
+          "Access-Control-Allow-Origin",
+          "*",
+          "Access-Control-Max-Age",
+          "86400"
+        ],
+        "reqheaders": {
+          "accept": "application/json",
+          "accept-encoding": "gzip, deflate",
+          "host": "ws.audioscrobbler.com"
+        },
+        "response": {
+          "error": 6,
+          "links": [
+          ],
+          "message": "Track not found"
+        },
+        "scope": "http://ws.audioscrobbler.com:80",
+        "status": 200
+      },
+      {
+        "body": "",
+        "method": "GET",
+        "path": "/2.0/?method=track.getInfo&format=json&api_key=*&mbid=42aac847-6bc7-425b-80b8-6dd5df266534",
+        "rawHeaders": [
+          "Server",
+          "openresty/1.9.7.3",
+          "Date",
+          "Sun, 19 Nov 2017 04:05:20 GMT",
+          "Content-Type",
+          "application/json; charset=UTF-8",
+          "Content-Length",
+          "50",
+          "Connection",
+          "keep-alive",
+          "Access-Control-Request-Headers",
+          "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+          "Access-Control-Allow-Methods",
+          "POST, GET, OPTIONS",
+          "Access-Control-Allow-Origin",
+          "*",
+          "Access-Control-Max-Age",
+          "86400"
+        ],
+        "reqheaders": {
+          "accept": "application/json",
+          "accept-encoding": "gzip, deflate",
+          "host": "ws.audioscrobbler.com"
+        },
+        "response": {
+          "error": 6,
+          "links": [
+          ],
+          "message": "Track not found"
+        },
+        "scope": "http://ws.audioscrobbler.com:80",
+        "status": 200
+      },
+      {
+        "body": "",
+        "method": "GET",
+        "path": "/2.0/?method=track.getInfo&format=json&api_key=*&mbid=3c9a019a-9627-4118-984b-c6fa6cd5cdcb",
+        "rawHeaders": [
+          "Server",
+          "openresty/1.9.7.3",
+          "Date",
+          "Sun, 19 Nov 2017 04:05:20 GMT",
+          "Content-Type",
+          "application/json; charset=UTF-8",
+          "Content-Length",
+          "1010",
+          "Connection",
+          "keep-alive",
+          "Access-Control-Request-Headers",
+          "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+          "Access-Control-Allow-Methods",
+          "POST, GET, OPTIONS",
+          "Access-Control-Allow-Origin",
+          "*",
+          "Access-Control-Max-Age",
+          "86400"
+        ],
+        "reqheaders": {
+          "accept": "application/json",
+          "accept-encoding": "gzip, deflate",
+          "host": "ws.audioscrobbler.com"
+        },
+        "response": {
+          "track": {
+            "album": {
+              "@attr": {
+                "position": "2"
+              },
+              "artist": "Bob Chance",
+              "image": [
+                {
+                  "#text": "https://lastfm-img2.akamaized.net/i/u/34s/0c72f620e368450687d4de07102a8ef9.png",
+                  "size": "small"
+                },
+                {
+                  "#text": "https://lastfm-img2.akamaized.net/i/u/64s/0c72f620e368450687d4de07102a8ef9.png",
+                  "size": "medium"
+                },
+                {
+                  "#text": "https://lastfm-img2.akamaized.net/i/u/174s/0c72f620e368450687d4de07102a8ef9.png",
+                  "size": "large"
+                },
+                {
+                  "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/0c72f620e368450687d4de07102a8ef9.png",
+                  "size": "extralarge"
+                }
+              ],
+              "mbid": "8245a827-9372-419e-a004-ede275731ccd",
+              "title": "It's Broken!",
+              "url": "https://www.last.fm/music/Bob+Chance/It%27s+Broken%21"
+            },
+            "artist": {
+              "mbid": "b581993f-42db-487b-bd8f-36ede819559b",
+              "name": "Bob Chance",
+              "url": "https://www.last.fm/music/Bob+Chance"
+            },
+            "duration": "172000",
+            "listeners": "395",
+            "mbid": "3c9a019a-9627-4118-984b-c6fa6cd5cdcb",
+            "name": "Honey Lips",
+            "playcount": "778",
+            "streamable": {
+              "#text": "0",
+              "fulltrack": "0"
+            },
+            "toptags": {
+              "tag": [
+              ]
+            },
+            "url": "https://www.last.fm/music/Bob+Chance/_/Honey+Lips"
+          }
+        },
+        "scope": "http://ws.audioscrobbler.com:80",
+        "status": 200
+      }
+    ]
+  ],
+  [
+    "lastFM field is null if the release MBID is not on Last.fm",
+    [
+      {
+        "body": "",
+        "method": "GET",
+        "path": "/ws/2/release?limit=3&query=Vacant&fmt=json",
+        "rawHeaders": [
+          "Date",
+          "Sun, 19 Nov 2017 04:05:21 GMT",
+          "Content-Type",
+          "application/json; charset=UTF-8",
+          "Transfer-Encoding",
+          "chunked",
+          "Connection",
+          "close",
+          "Vary",
+          "Accept-Encoding",
+          "X-RateLimit-Limit",
+          "1200",
+          "X-RateLimit-Remaining",
+          "980",
+          "X-RateLimit-Reset",
+          "1511064321",
+          "Last-Modified",
+          "Sun, 19 Nov 2017 03:27:15 GMT",
+          "Server",
+          "Jetty(9.3.10.v20160621)",
+          "Access-Control-Allow-Origin",
+          "*"
+        ],
+        "reqheaders": {
+          "accept": "application/json",
+          "accept-encoding": "gzip, deflate",
+          "host": "musicbrainz.org"
+        },
+        "response": "{\"created\":\"2017-11-19T03:27:15.516Z\",\"count\":54,\"offset\":0,\"releases\":[{\"id\":\"797ad821-4dc3-486d-95bb-710d2bf049e4\",\"score\":\"100\",\"count\":1,\"title\":\"Vacant\",\"status\":\"Official\",\"packaging\":\"None\",\"text-representation\":{\"language\":\"eng\",\"script\":\"Latn\"},\"artist-credit\":[{\"artist\":{\"id\":\"c8da2e40-bd28-4d4e-813a-bd2f51958ba8\",\"name\":\"Lures\",\"sort-name\":\"Lures\",\"disambiguation\":\"Seattle trio\"}}],\"release-group\":{\"id\":\"f86eb0a9-fd04-48c9-810b-1ba0b006e7b4\",\"primary-type\":\"Single\"},\"date\":\"2013-10-22\",\"country\":\"XW\",\"release-events\":[{\"date\":\"2013-10-22\",\"area\":{\"id\":\"525d4e18-3d00-31b9-a58b-a146a916de8f\",\"name\":\"[Worldwide]\",\"sort-name\":\"[Worldwide]\",\"iso-3166-1-codes\":[\"XW\"]}}],\"barcode\":\"\",\"label-info\":[{\"label\":{\"id\":\"9d36ba13-e56a-47b7-9148-23f846374736\",\"name\":\"Fin Records\"}}],\"track-count\":2,\"media\":[{\"format\":\"Digital Media\",\"disc-count\":0,\"track-count\":2}]},{\"id\":\"b597152a-601d-4fc2-aa2f-61497e689af1\",\"score\":\"100\",\"count\":1,\"title\":\"Vacant\",\"status\":\"Official\",\"artist-credit\":[{\"artist\":{\"id\":\"2abc7573-ca8f-4cdc-ab76-465116c0930d\",\"name\":\"Ashbringer\",\"sort-name\":\"Ashbringer\"}}],\"release-group\":{\"id\":\"0a0a3fdb-3776-496f-b5a5-7683ea51bca4\",\"primary-type\":\"Album\"},\"date\":\"2015-04-08\",\"release-events\":[{\"date\":\"2015-04-08\"}],\"track-count\":6,\"media\":[{\"disc-count\":0,\"track-count\":6}]},{\"id\":\"f916ada3-8f81-4013-bc0a-4bb29f2ca95b\",\"score\":\"62\",\"count\":1,\"title\":\"Pretty Vacant\",\"status\":\"Official\",\"packaging\":\"Digipak\",\"text-representation\":{\"language\":\"eng\",\"script\":\"Latn\"},\"artist-credit\":[{\"artist\":{\"id\":\"e5db18cb-4b1f-496d-a308-548b611090d3\",\"name\":\"Sex Pistols\",\"sort-name\":\"Sex Pistols\",\"aliases\":[{\"sort-name\":\"'Original' Sex Pistols\",\"name\":\"'Original' Sex Pistols\",\"locale\":null,\"type\":null,\"primary\":null,\"begin-date\":null,\"end-date\":null},{\"sort-name\":\"The Original Pistols\",\"name\":\"The Original Pistols\",\"locale\":null,\"type\":null,\"primary\":null,\"begin-date\":null,\"end-date\":null},{\"sort-name\":\"The Sex Pistols\",\"name\":\"The Sex Pistols\",\"locale\":null,\"type\":null,\"primary\":null,\"begin-date\":null,\"end-date\":null}]}}],\"release-group\":{\"id\":\"7b0db2e0-adda-31d6-ae9b-ae12912c22d3\",\"primary-type\":\"Single\"},\"date\":\"1992-11\",\"country\":\"GB\",\"release-events\":[{\"date\":\"1992-11\",\"area\":{\"id\":\"8a754a16-0027-3a29-b6d7-2b40ea0481ed\",\"name\":\"United Kingdom\",\"sort-name\":\"United Kingdom\",\"iso-3166-1-codes\":[\"GB\"]}}],\"barcode\":\"724389100921\",\"label-info\":[{\"catalog-number\":\"VSCDG 1448\",\"label\":{\"id\":\"49b58bdb-3d74-40c6-956a-4c4b46115c9c\",\"name\":\"Virgin\"}}],\"track-count\":4,\"media\":[{\"format\":\"CD\",\"disc-count\":1,\"track-count\":4}]}]}",
+        "scope": "http://musicbrainz.org:80",
+        "status": 200
+      },
+      {
+        "body": "",
+        "method": "GET",
+        "path": "/2.0/?method=album.getInfo&format=json&api_key=*&mbid=797ad821-4dc3-486d-95bb-710d2bf049e4",
+        "rawHeaders": [
+          "Server",
+          "openresty/1.9.7.3",
+          "Date",
+          "Sun, 19 Nov 2017 04:05:21 GMT",
+          "Content-Type",
+          "application/json; charset=UTF-8",
+          "Content-Length",
+          "50",
+          "Connection",
+          "keep-alive",
+          "Access-Control-Request-Headers",
+          "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+          "Access-Control-Allow-Methods",
+          "POST, GET, OPTIONS",
+          "Access-Control-Allow-Origin",
+          "*",
+          "Access-Control-Max-Age",
+          "86400"
+        ],
+        "reqheaders": {
+          "accept": "application/json",
+          "accept-encoding": "gzip, deflate",
+          "host": "ws.audioscrobbler.com"
+        },
+        "response": {
+          "error": 6,
+          "links": [
+          ],
+          "message": "Album not found"
+        },
+        "scope": "http://ws.audioscrobbler.com:80",
+        "status": 200
+      },
+      {
+        "body": "",
+        "method": "GET",
+        "path": "/2.0/?method=album.getInfo&format=json&api_key=*&mbid=b597152a-601d-4fc2-aa2f-61497e689af1",
+        "rawHeaders": [
+          "Server",
+          "openresty/1.9.7.3",
+          "Date",
+          "Sun, 19 Nov 2017 04:05:21 GMT",
+          "Content-Type",
+          "application/json; charset=UTF-8",
+          "Content-Length",
+          "50",
+          "Connection",
+          "keep-alive",
+          "Access-Control-Request-Headers",
+          "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+          "Access-Control-Allow-Methods",
+          "POST, GET, OPTIONS",
+          "Access-Control-Allow-Origin",
+          "*",
+          "Access-Control-Max-Age",
+          "86400"
+        ],
+        "reqheaders": {
+          "accept": "application/json",
+          "accept-encoding": "gzip, deflate",
+          "host": "ws.audioscrobbler.com"
+        },
+        "response": {
+          "error": 6,
+          "links": [
+          ],
+          "message": "Album not found"
+        },
+        "scope": "http://ws.audioscrobbler.com:80",
+        "status": 200
+      },
+      {
+        "body": "",
+        "method": "GET",
+        "path": "/2.0/?method=album.getInfo&format=json&api_key=*&mbid=f916ada3-8f81-4013-bc0a-4bb29f2ca95b",
+        "rawHeaders": [
+          "Server",
+          "openresty/1.9.7.3",
+          "Date",
+          "Sun, 19 Nov 2017 04:05:21 GMT",
+          "Content-Type",
+          "application/json; charset=UTF-8",
+          "Content-Length",
+          "1743",
+          "Connection",
+          "keep-alive",
+          "Access-Control-Request-Headers",
+          "Origin, X-Atmosphere-tracking-id, X-Atmosphere-Framework, X-Cache-Date, Content-Type, X-Atmosphere-Transport, *",
+          "Access-Control-Allow-Methods",
+          "POST, GET, OPTIONS",
+          "Access-Control-Allow-Origin",
+          "*",
+          "Access-Control-Max-Age",
+          "86400"
+        ],
+        "reqheaders": {
+          "accept": "application/json",
+          "accept-encoding": "gzip, deflate",
+          "host": "ws.audioscrobbler.com"
+        },
+        "response": {
+          "album": {
+            "artist": "Sex Pistols",
+            "image": [
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/34s/1c6bc160c047e382532b008ac6d1e9c1.png",
+                "size": "small"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/64s/1c6bc160c047e382532b008ac6d1e9c1.png",
+                "size": "medium"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/174s/1c6bc160c047e382532b008ac6d1e9c1.png",
+                "size": "large"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/1c6bc160c047e382532b008ac6d1e9c1.png",
+                "size": "extralarge"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/1c6bc160c047e382532b008ac6d1e9c1.png",
+                "size": "mega"
+              },
+              {
+                "#text": "https://lastfm-img2.akamaized.net/i/u/300x300/1c6bc160c047e382532b008ac6d1e9c1.png",
+                "size": ""
+              }
+            ],
+            "listeners": "6040",
+            "mbid": "b812e7d7-b3e2-488b-ad03-c2915480615e",
+            "name": "Pretty Vacant",
+            "playcount": "28884",
+            "tags": {
+              "tag": [
+                {
+                  "name": "albums I own",
+                  "url": "https://www.last.fm/tag/albums+I+own"
+                },
+                {
+                  "name": "best albums",
+                  "url": "https://www.last.fm/tag/best+albums"
+                },
+                {
+                  "name": "sex pistols",
+                  "url": "https://www.last.fm/tag/sex+pistols"
+                },
+                {
+                  "name": "have on vinyl",
+                  "url": "https://www.last.fm/tag/have+on+vinyl"
+                }
+              ]
+            },
+            "tracks": {
+              "track": [
+                {
+                  "@attr": {
+                    "rank": "1"
+                  },
+                  "artist": {
+                    "mbid": "e5db18cb-4b1f-496d-a308-548b611090d3",
+                    "name": "Sex Pistols",
+                    "url": "https://www.last.fm/music/Sex+Pistols"
+                  },
+                  "duration": "208",
+                  "name": "Pretty Vacant",
+                  "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                  },
+                  "url": "https://www.last.fm/music/Sex+Pistols/_/Pretty+Vacant"
+                },
+                {
+                  "@attr": {
+                    "rank": "2"
+                  },
+                  "artist": {
+                    "mbid": "e5db18cb-4b1f-496d-a308-548b611090d3",
+                    "name": "Sex Pistols",
+                    "url": "https://www.last.fm/music/Sex+Pistols"
+                  },
+                  "duration": "380",
+                  "name": "No Fun",
+                  "streamable": {
+                    "#text": "0",
+                    "fulltrack": "0"
+                  },
+                  "url": "https://www.last.fm/music/Sex+Pistols/_/No+Fun"
+                }
+              ]
+            },
+            "url": "https://www.last.fm/music/Sex+Pistols/Pretty+Vacant"
+          }
+        },
+        "scope": "http://ws.audioscrobbler.com:80",
+        "status": 200
+      }
+    ]
+  ],
+  [
     "lastFM queries fail if there is no API key configured",
     [
       {

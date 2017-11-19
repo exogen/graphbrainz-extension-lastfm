@@ -277,9 +277,9 @@ ava-init@^0.2.0:
     read-pkg-up "^2.0.0"
     write-pkg "^3.1.0"
 
-ava-nock@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/ava-nock/-/ava-nock-0.3.0.tgz#554047696dd73181eadcca918eaae2941435b677"
+ava-nock@^0.3.1:
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/ava-nock/-/ava-nock-0.3.1.tgz#46213ee9e6628951e3f0ec92308d8a0437fc4ca9"
   dependencies:
     debug "^3.1.0"
     fs-extra "^4.0.2"
