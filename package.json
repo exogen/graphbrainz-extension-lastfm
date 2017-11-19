@@ -73,7 +73,7 @@
     "instrument": false
   },
   "peerDependencies": {
-    "graphbrainz": "^7.1.0"
+    "graphbrainz": "^7.3.0"
   },
   "dependencies": {
     "country-list": "^1.1.0",
