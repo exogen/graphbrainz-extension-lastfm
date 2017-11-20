@@ -14,6 +14,8 @@ Last.fm will have their `lastFM` field, otherwise it will be null.
 **[Try out the live demo!][demo]** :bulb: Use the “Docs” sidebar or the
 documentation below to help construct your query.
 
+## Installation
+
 To use this extension, install [GraphBrainz][] then:
 
 ```console
