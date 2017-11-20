@@ -7,6 +7,10 @@
 
 Retrieve artist, release, and recording information from [Last.fm][].
 
+The extension works by sending the MBIDs of entities to the [Last.fm API][]
+whenever their `lastFM` field is requested. Only entities with known MBIDs on
+Last.fm will have their `lastFM` field, otherwise it will be null.
+
 **[Try out the live demo!][demo]** :bulb: Use the “Docs” sidebar or the
 documentation below to help construct your query.
 
@@ -28,8 +32,6 @@ const middleware = graphbrainz({
 })
 ```
 
-This extension uses its own cache, separate from the MusicBrainz loader cache.
-
 ## Configuration
 
 This extension can be configured using environment variables:
@@ -42,6 +44,8 @@ This extension can be configured using environment variables:
   `GRAPHBRAINZ_CACHE_SIZE` if defined, or `8192`.
 * **`LASTFM_CACHE_TTL`**: The number of seconds to keep items in the cache.
   Defaults to `GRAPHBRAINZ_CACHE_TTL` if defined, or `86400000` (one day).
+
+This extension uses its own cache, separate from the MusicBrainz loader cache.
 
 ## Example Queries
 
@@ -1519,5 +1523,6 @@ A maximum dimension of 300px.
 <!-- END graphql-markdown -->
 
 [Last.fm]: https://www.last.fm/
+[Last.fm API]: https://www.last.fm/api
 [GraphBrainz]: https://github.com/exogen/graphbrainz
 [demo]: https://graphbrainz-extension-lastfm.herokuapp.com/
