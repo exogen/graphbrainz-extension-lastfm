@@ -236,7 +236,7 @@ The size of the image to retrieve.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>listenerCount</strong></td>
-<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#float">Float</a></td>
 <td>
 
 The number of listeners recorded for the album.
@@ -245,7 +245,7 @@ The number of listeners recorded for the album.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>playCount</strong></td>
-<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#float">Float</a></td>
 <td>
 
 The number of plays recorded for the album.
@@ -460,7 +460,7 @@ The size of the image to retrieve.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>listenerCount</strong></td>
-<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#float">Float</a></td>
 <td>
 
 The number of listeners recorded for the artist.
@@ -469,7 +469,7 @@ The number of listeners recorded for the artist.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>playCount</strong></td>
-<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#float">Float</a></td>
 <td>
 
 The number of plays recorded for the artist.
@@ -1104,7 +1104,7 @@ The length of the track.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>listenerCount</strong></td>
-<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#float">Float</a></td>
 <td>
 
 The number of listeners recorded for the track.
@@ -1113,7 +1113,7 @@ The number of listeners recorded for the track.
 </tr>
 <tr>
 <td colspan="2" valign="top"><strong>playCount</strong></td>
-<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#int">Int</a></td>
+<td valign="top"><a href="https://github.com/exogen/graphbrainz/docs/types.md#float">Float</a></td>
 <td>
 
 The number of plays recorded for the track.

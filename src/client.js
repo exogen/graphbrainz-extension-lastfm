@@ -13,16 +13,14 @@ import Client from 'graphbrainz/lib/api/client'
 const RETRY_CODES = new Set([8, 11, 16, 29])
 
 export default class LastFMClient extends Client {
-  constructor(
-    {
-      apiKey = process.env.LASTFM_API_KEY,
-      baseURL = process.env.LASTFM_BASE_URL ||
-        'http://ws.audioscrobbler.com/2.0/',
-      limit = 5,
-      period = 1000,
-      ...options
-    } = {}
-  ) {
+  constructor({
+    apiKey = process.env.LASTFM_API_KEY,
+    baseURL = process.env.LASTFM_BASE_URL ||
+      'http://ws.audioscrobbler.com/2.0/',
+    limit = 5,
+    period = 1000,
+    ...options
+  } = {}) {
     super({ baseURL, limit, period, ...options })
     this.apiKey = apiKey
   }
